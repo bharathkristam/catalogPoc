@@ -1,13 +1,11 @@
 (function (angular) {
     'use strict';
 
+    angular.module('serviceCatalog').directive('formRenderer', formViewerDirective);
 
-    //var app=angular.module('serviceCatalog', []);
-    angular.module('serviceCatalog').directive('casmTextField', formViewerDirective);
+    formViewerDirective.$inject=['formViewerService', 'formRenderHelper'];
 
-    formViewerDirective.$inject=['formViewerService'];
-
-    function  formViewerDirective(formViewerService) {
+    function  formViewerDirective(formViewerService,formRenderHelper ) {
         var directive = {
             restrict: 'E',
             link : link ,
@@ -20,6 +18,7 @@
             scope.formPromise.then(
                 function(resp){
                     debugger;
+                    var jsonForm = resp;
                 }, function (error) {
                    debugger;
 

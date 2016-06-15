@@ -1,0 +1,41 @@
+{
+  "id": 14629,
+  "name": "TextFieldForm",
+  "path": "\/1\/14628\/",
+  "position": 2,
+  "type": 2,
+  "children": [
+    {
+      "id": 14632,
+      "name": "User Name",
+      "path": "\/1\/14628\/14629\/",
+      "position": 1,
+      "type": 5,
+      "children": [],
+      "attributeValues": [
+        {
+          "locale": "_system",
+          "name": "emptyText",
+          "type": "1",
+          "value": "Enter User Name",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "maxlength",
+          "type": "1",
+          "value": "15",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "hint",
+          "type": "1",
+          "value": "Hint: User Name",
+          "id": "null"
+        }
+      ]
+    }
+  ]
+}
+
