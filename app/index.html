@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+ <html lang="en" ng-app="serviceCatalog" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>serviceCatalog</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div ng-view></div>
+
+  <div ng-controller="ViewCtrl">
+    <p>Reading JSON data using AngularJS Service component</p>
+    <ul>
+      <li ng-repeat="x in myData.family">
+        {{ x.age + ', ' +  x.role }}
+      </li>
+      <li>
+        House No = {{myData.house[0].no}}
+      </li>
+      <li>
+        Income = {{myData.income}}
+      </li>
+    </ul>
+
+  </div>
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="view1/view1.js"></script>
+</body>
+</html>
