@@ -12,27 +12,17 @@
 <body>
   <div ng-view></div>
 
-  <div ng-controller="ViewCtrl">
-    <p>Reading JSON data using AngularJS Service component</p>
-    <ul>
-      <li ng-repeat="x in myData.family">
-        {{ x.age + ', ' +  x.role }}
-      </li>
-      <li>
-        House No = {{myData.house[0].no}}
-      </li>
-      <li>
-        Income = {{myData.income}}
-      </li>
-    </ul>
 
-  </div>
+<casm-text-field></casm-text-field>
+
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
-  <script src="view1/view1.js"></script>
+  <script src="formViewer/formViewerService.js"></script>
+  <script src="formViewer/formViewerDirective.js"></script>
+
 </body>
 </html>
