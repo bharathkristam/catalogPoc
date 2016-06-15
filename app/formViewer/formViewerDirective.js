@@ -3,9 +3,9 @@
 
     angular.module('serviceCatalog').directive('formRenderer', formViewerDirective);
 
-    formViewerDirective.$inject=['formViewerService'];
+    formViewerDirective.$inject=['formViewerService', 'formRenderHelper'];
 
-    function  formViewerDirective(formViewerService) {
+    function  formViewerDirective(formViewerService,formRenderHelper ) {
         var directive = {
             restrict: 'E',
             link : link ,
