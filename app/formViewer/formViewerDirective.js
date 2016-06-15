@@ -1,9 +1,7 @@
 (function (angular) {
     'use strict';
 
-
-    //var app=angular.module('serviceCatalog', []);
-    angular.module('serviceCatalog').directive('casmTextField', formViewerDirective);
+    angular.module('serviceCatalog').directive('formRenderer', formViewerDirective);
 
     formViewerDirective.$inject=['formViewerService'];
 
@@ -20,6 +18,7 @@
             scope.formPromise.then(
                 function(resp){
                     debugger;
+                    var jsonForm = resp;
                 }, function (error) {
                    debugger;
 

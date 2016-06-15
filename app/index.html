@@ -10,19 +10,22 @@
   <link rel="stylesheet" href="app.css">
 </head>
 <body>
-  <div ng-view></div>
 
 
-<casm-text-field></casm-text-field>
+
+<form-renderer></form-renderer>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
+
   <script src="app.js"></script>
   <script src="formViewer/formViewerService.js"></script>
   <script src="formViewer/formViewerDirective.js"></script>
+  <script src="customFieldAttributes/directives/FormHintDirective.js"></script>
+  <script src="formViewer/services/FormRenderHelper.js"></script>
 
 </body>
 </html>
