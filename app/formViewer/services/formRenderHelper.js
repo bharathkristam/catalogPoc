@@ -3,34 +3,27 @@
     'use strict';
 
 
-    angular.module('serviceCatalog').factory("formRenderHelper",formRenderHelper);
+    angular.module('serviceCatalog').factory("catalog.formRenderHelper",formRenderHelper);
 
-    formRenderHelper.$inject=['formEntityMap'];
+    function formRenderHelper(){
 
-    function formRenderHelper( formEntityMap){
+        var attributeAliases = {
+            "emptyText": "placeholder",
+            "CSS Class": "class",
+            "tooltip": "title",
+            "columnWidth": "width",
+            "pattern": "ng-pattern",
+            "style" : "ng-style"
+
+        };
 
         var service={
-            renderForm : renderForm,
-            getFormEntityByType :getFormEntityByType,
-            isHtmlAttribute : isHtmlAttribute,
-            getAttributeByAlias : getAttributeByAlias,
-
-            attributeAliases :
-                {
-                    "emptyText": "placeholder",
-                    "CSS Class": "class",
-                    "tooltip": "title",
-                    "columnWidth": "width",
-                    "pattern": "ng-pattern",
-                    "style" : "ng-style"
-
-                }
-
+            getAttributeByAlias : getAttributeByAlias
 
         };
 
         return service;
-
+/*
         function getFormEntityByType(type_id, attrList) {
             var htmlElement = formEntityMap.getHtmlById(type_id);
             var pos = htmlElement.indexOf(">");
@@ -50,21 +43,18 @@
                 return "<div>" + startTag + "</div>";
 
             return startTag;
-        }
+        }*/
 
-        function isHtmlAttribute(attribute_name) {
-
-        }
 
         function getAttributeByAlias(alias_name) {
-                if(this.attributeAliases[alias_name]){
-                    return this.attributeAliases[alias_name];
+                if(attributeAliases[alias_name]){
+                    return attributeAliases[alias_name];
                 }
                 return alias_name;
 
         }
 
-        function renderForm (jsonForm) {
+  /*      function renderForm (jsonForm) {
             console.log("In render Form");
             var finalTemplate = "";
             if(jsonForm.type == 2){
@@ -90,7 +80,7 @@
                 }
             }
                 return startTag + endTag;
-        }
+        }*/
 
     }
 })(window.angular);
