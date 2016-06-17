@@ -15,7 +15,7 @@
       "attributeValues": [
         {
           "locale": "_system",
-          "name": "emptyText",
+          "name": "placeholder",
           "type": "1",
           "value": "Enter User Name",
           "id": "null"
