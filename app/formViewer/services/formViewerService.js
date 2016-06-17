@@ -3,7 +3,7 @@
   'use strict';
 
 
-      angular.module('serviceCatalog').factory("formViewerService",formService);
+      angular.module('serviceCatalog').factory("catalog.formViewerService",formService);
 
   formService.$inject=['$http'];
 
@@ -14,8 +14,8 @@
     };
     return service;
 
-       function getFormData(formId) {
-        return $http.get(formId);
+       function getFormData() {
+        return $http.get("data/chota_form.json");
       }
   }
 })(window.angular);
