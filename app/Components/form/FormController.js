@@ -5,7 +5,7 @@
 
     formController.$inject = ['$scope', 'catalog.formRenderHelper', 'catalog.formViewerService'];
 
-    function formController (formRenderHelper, formViewerService) {
+    function formController ($scope, formRenderHelper, formViewerService) {
 
 
         $scope.parentJson = {};
