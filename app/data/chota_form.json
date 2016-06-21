@@ -35,6 +35,68 @@
           "id": "null"
         }
       ]
+    },
+    {
+      "id": 14551,
+      "name": "User Address",
+      "path": "\/1\/14548\/14604\/14605\/14549\/",
+      "position": 2,
+      "type": 8,
+      "children": [],
+      "attributeValues": [
+        {
+          "locale": "_system",
+          "name": "_id",
+          "type": "1",
+          "value": "txta_1",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "hidden",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "includeinemail",
+          "type": "1",
+          "value": "true",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "required",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "disabled",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "hideLabel",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        }
+      ],
+      "tenant": {
+        "id": "ca.com",
+        "": "tenant",
+        "name": "ca.com",
+        "path": "ca.com\/",
+        "timeFormat": "HH:mm:ss",
+        "parentTenantId": "ca.com",
+        "dateFormat": "M\/d\/yyyy",
+        "type": "SP"
+      }
     }
   ]
 }

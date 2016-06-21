@@ -1,7 +1,10 @@
 (function (angular) {
     'use strict';
 
-    angular.module('components').directive('caTextarea', function(formRenderHelper) {
+    angular.module('components').directive('caTextarea', caTextarea);
+
+    caTextarea.$inject = ['catalog.formRenderHelper'];
+    function caTextarea(formRenderHelper) {
         return {
             restrict: 'E',
             templateUrl : 'Components/textarea/TextArea.html',
@@ -18,12 +21,12 @@
                 var attrList = data["attributeValues"];
                 if(attrList && attrList.length > 0) {
                     for(var i in attrList){
-                        textArea.attribute(formRenderHelper.getAttributeByAlias(attrList["name"]), attrList["value"]);
+                        $(textArea).attr(attrList[i]["name"], attrList[i]["value"]);
                     }
                 }
 
             }
         }
 
-    });
+    };
 })(window.angular);
