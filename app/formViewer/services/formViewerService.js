@@ -3,7 +3,7 @@
   'use strict';
 
 
-      angular.module('serviceCatalog').factory("catalog.formViewerService",formService);
+      angular.module('components').factory("catalog.formViewerService",formService);
 
   formService.$inject=['$http'];
 
