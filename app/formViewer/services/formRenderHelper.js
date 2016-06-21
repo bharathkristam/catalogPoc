@@ -23,36 +23,37 @@
         };
 
         return service;
-/*
-        function getFormEntityByType(type_id, attrList) {
-            var htmlElement = formEntityMap.getHtmlById(type_id);
-            var pos = htmlElement.indexOf(">");
-            var startTag = htmlElement.substring(0, pos);
-            var endTag = htmlElement.substring(pos, htmlElement.length);
-
-            for(var i in attrList){
-                //TODO handle any exceptions here
-
-                startTag += (attrList[i]["name"]) + "=";
-                startTag += "'" + (attrList[i]["value"] + "' ");
-
-            }
-          startTag += (endTag);
-
-            if(type_id !=2)
-                return "<div>" + startTag + "</div>";
-
-            return startTag;
-        }*/
-
 
         function getAttributeByAlias(alias_name) {
-                if(attributeAliases[alias_name]){
-                    return attributeAliases[alias_name];
-                }
-                return alias_name;
+            if(attributeAliases[alias_name]){
+                return attributeAliases[alias_name];
+            }
+            return alias_name;
 
         }
+
+        /*
+                function getFormEntityByType(type_id, attrList) {
+                    var htmlElement = formEntityMap.getHtmlById(type_id);
+                    var pos = htmlElement.indexOf(">");
+                    var startTag = htmlElement.substring(0, pos);
+                    var endTag = htmlElement.substring(pos, htmlElement.length);
+
+                    for(var i in attrList){
+                        //TODO handle any exceptions here
+
+                        startTag += (attrList[i]["name"]) + "=";
+                        startTag += "'" + (attrList[i]["value"] + "' ");
+
+                    }
+                  startTag += (endTag);
+
+                    if(type_id !=2)
+                        return "<div>" + startTag + "</div>";
+
+                    return startTag;
+                }*/
+
 
   /*      function renderForm (jsonForm) {
             console.log("In render Form");
