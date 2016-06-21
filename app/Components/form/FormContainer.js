@@ -12,7 +12,7 @@
             },
             controller: "catalog.formController",
             link: function (scope, element, attrs) {
-                scope.data;
+                //scope.data;
 
                 var attrList = scope.data["attributeValues"];
                 if(attrList.length > 0) {
