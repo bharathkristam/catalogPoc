@@ -10,6 +10,7 @@
                 load : '=',
                 parentOfferingId : '@'
             },
+            controller: "catalog.formController",
             link: function (scope, element, attrs) {
                 scope.data;
 
