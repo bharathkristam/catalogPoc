@@ -1,7 +1,8 @@
-<form ng-controller="catalog.formController" data="parentJson" >
+<form data="parentJson" >
 
 <div ng-repeat="control in parentJson.children"
     ng-switch on="control.type">
      <ca-textfield data="control" parentFormId="parentJson.id" ng-switch-when="5"></ca-textfield>
+     <ca-textarea data="control" parentFormId="parentJson.id" ng-switch-when="8"></ca-textarea>
 </div>
 </form>
