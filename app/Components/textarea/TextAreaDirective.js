@@ -1,14 +1,14 @@
 (function (angular) {
     'use strict';
 
-    angular.module('components').directive('caTextfield', caTextfieldDirective);
+    angular.module('components').directive('caTextarea', caTextAreaDirective);
 
-    caTextfieldDirective.$inject = ['catalog.formRenderHelper'];
+    caTextAreaDirective.$inject = ['catalog.formRenderHelper'];
 
-    function caTextfieldDirective (formRenderHelper) {
+    function caTextAreaDirective (formRenderHelper) {
         return {
             restrict: 'E',
-            templateUrl : 'Components/textfield/TextField.html',
+            templateUrl : 'Components/textarea/TextArea.html',
             scope : {
                 data : '=',
                 rendererCfg : '=',
@@ -17,12 +17,12 @@
             link: function (scope, element, attrs) {
                 var data = scope.data;
                 var jElement = $(element);
-                var textField = jElement.find('input')[0];
-                scope.textFieldLabel = data["name"];
+                var textArea = jElement.find('textarea')[0];
+                scope.textareaLabel = data["name"];
                 var attrList = data["attributeValues"];
                 if(attrList && attrList.length > 0) {
                     for(var i in attrList){
-                        $(textField).attr(formRenderHelper.getAttributeByAlias(attrList[i]["name"]), attrList[i]["value"]);
+                        $(textArea).attr(attrList[i]["name"], attrList[i]["value"]);
                     }
                 }
 

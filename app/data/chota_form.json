@@ -15,7 +15,7 @@
       "attributeValues": [
         {
           "locale": "_system",
-          "name": "placeholder",
+          "name": "emptyText",
           "type": "1",
           "value": "Enter User Name",
           "id": "null"
@@ -53,13 +53,6 @@
         },
         {
           "locale": "_system",
-          "name": "hidden",
-          "type": "1",
-          "value": "false",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
           "name": "includeinemail",
           "type": "1",
           "value": "true",
@@ -68,13 +61,6 @@
         {
           "locale": "_system",
           "name": "required",
-          "type": "1",
-          "value": "false",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "disabled",
           "type": "1",
           "value": "false",
           "id": "null"
