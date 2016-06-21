@@ -11,18 +11,18 @@
             templateUrl : 'Components/textfield/TextField.html',
             scope : {
                 data : '=',
-                load : '=',
+                rendererCfg : '=',
                 parentFormId : '@'
             },
             link: function (scope, element, attrs) {
-
+                var data = scope.data;
                 var jElement = $(element);
                 var textField = jElement.find('input')[0];
                 scope.textFieldLabel = data["name"];
-                var attrList = scope.data["attributeValues"];
+                var attrList = data["attributeValues"];
                 if(attrList && attrList.length > 0) {
                     for(var i in attrList){
-                        textField.attribute(formRenderHelper.getAttributeByAlias(attrList["name"]), attrList["value"]);
+                        $(textField).attr(attrList[i]["name"], attrList[i]["value"]);
                     }
                 }
 
