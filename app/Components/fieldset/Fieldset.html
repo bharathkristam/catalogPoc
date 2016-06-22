@@ -1,0 +1,8 @@
+<fieldset>
+     <legend ng-bind="legendTitle"></legend>
+<div ng-repeat="control in json.children"
+    ng-switch on="control.type">
+     <ca-textfield data="control" parentFormId="parentJson.id" ng-switch-when="5"></ca-textfield>
+     <ca-textarea data="control" parentFormId="parentJson.id" ng-switch-when="8"></ca-textarea>
+</div>
+</fieldset>

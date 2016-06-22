@@ -83,7 +83,192 @@
         "dateFormat": "M\/d\/yyyy",
         "type": "SP"
       }
+    },
+    {
+      "id": 14606,
+      "name": "Active",
+      "path": "\/1\/14548\/14604\/14605\/14549\/",
+      "position": 13,
+      "type": 7,
+      "children": [],
+      "attributeValues": [
+        {
+          "locale": "_system",
+          "name": "_id",
+          "type": "1",
+          "value": "chb_1",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "includeinemail",
+          "type": "1",
+          "value": "true",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "value",
+          "type": "1",
+          "value": "active",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "checked",
+          "type": "1",
+          "value": "true",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "disabled",
+          "type": "1",
+          "value": "true",
+          "id": "null"
+        }
+      ]
+    },
+    {
+      "id": 14552,
+      "name": "Release name",
+      "path": "\/1\/14548\/14604\/14605\/14549\/",
+      "position": 3,
+      "type": 9,
+      "children": [
+        {
+          "id": 14553,
+          "name": "Phoenix",
+          "path": "\/1\/14548\/14604\/14605\/14549\/14552\/",
+          "position": 1,
+          "type": 11,
+          "children": [],
+          "attributeValues": [
+            {
+              "locale": "_system",
+              "name": "value",
+              "type": "1",
+              "value": "value",
+              "id": "null"
+            }
+          ],
+          "tenant": {
+            "id": "ca.com",
+            "": "tenant",
+            "name": "ca.com",
+            "path": "ca.com\/",
+            "timeFormat": "HH:mm:ss",
+            "parentTenantId": "ca.com",
+            "dateFormat": "M\/d\/yyyy",
+            "type": "SP"
+          }
+        },
+        {
+          "id": 14554,
+          "name": "Hampi",
+          "path": "\/1\/14548\/14604\/14605\/14549\/14552\/",
+          "position": 2,
+          "type": 11,
+          "children": [],
+          "attributeValues": [
+            {
+              "locale": "_system",
+              "name": "value",
+              "type": "1",
+              "value": "value",
+              "id": "null"
+            }
+          ],
+          "tenant": {
+            "id": "ca.com",
+            "": "tenant",
+            "name": "ca.com",
+            "path": "ca.com\/",
+            "timeFormat": "HH:mm:ss",
+            "parentTenantId": "ca.com",
+            "dateFormat": "M\/d\/yyyy",
+            "type": "SP"
+          }
+        }
+      ],
+      "attributeValues": [
+        {
+          "locale": "_system",
+          "name": "_id",
+          "type": "1",
+          "value": "sel_1",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "required",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "multiple",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "hideLabel",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        }
+      ]
+
+    },
+    {
+      "id": 14603,
+      "name": "Rating",
+      "path": "\/1\/14548\/14604\/14605\/14549\/",
+      "position": 12,
+      "type": 20,
+      "children": [],
+      "attributeValues": [
+        {
+          "locale": "_system",
+          "name": "_id",
+          "type": "1",
+          "value": "spinner_1",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "includeinemail",
+          "type": "1",
+          "value": "true",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "required",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "hideLabel",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "value",
+          "type": "1",
+          "value": "1",
+          "id": "null"
+        }
+      ]
     }
-  ]
+
+      ]
 }
 
