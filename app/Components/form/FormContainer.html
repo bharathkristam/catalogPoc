@@ -2,7 +2,12 @@
 
 <div ng-repeat="control in parentJson.children"
     ng-switch on="control.type">
+     <div style="display:block ">
      <ca-textfield data="control" parentFormId="parentJson.id" ng-switch-when="5"></ca-textfield>
      <ca-textarea data="control" parentFormId="parentJson.id" ng-switch-when="8"></ca-textarea>
-</div>
+     <ca-checkbox data="control" parentFormId="parentJson.id" ng-switch-when="7"></ca-checkbox>
+     <ca-combbobox data="control" parentFormId="parentJson.id" ng-switch-when="9"></ca-combbobox>
+          <ca-spinner data="control" parentFormId="parentJson.id" ng-switch-when="20"></ca-spinner>
+     </div>
+ </div>
 </form>
