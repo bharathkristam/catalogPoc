@@ -7,16 +7,16 @@
           <form data="parentJson" role="form">
 
                <div ng-repeat="control in parentJson.children" ng-switch on="control.type">
-                    <div class="form-group">
+                    <div class="form-inline">
                          <ca-textfield data="control" parentFormId="parentJson.id" ng-switch-when="5"></ca-textfield>
                     </div>
-                    <div class="form-group">
+                    <div class="form-inline">
                          <ca-textarea data="control" parentFormId="parentJson.id" ng-switch-when="8"></ca-textarea>
                     </div>
                     <div class="checkbox">
                          <ca-checkbox data="control" parentFormId="parentJson.id" ng-switch-when="7"></ca-checkbox>
                     </div>
-                    <div class="form-group">
+                    <div class="form-inline">
                          <ca-spinner data="control" parentFormId="parentJson.id" ng-switch-when="20"></ca-spinner>
                     </div>
                </div>
