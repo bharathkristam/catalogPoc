@@ -1,7 +1,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('serviceCatalog').directive('hint',function($compile) {
+    angular.module('customAttributes').directive('hint',function($compile) {
         return {
             restrict: 'A',
             link: function (scope, element, attrs) {
