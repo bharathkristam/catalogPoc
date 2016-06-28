@@ -333,6 +333,100 @@
           "id": "null"
         }
       ]
+    },
+    {
+      "id": 14555,
+      "name": "Gender",
+      "path": "\/1\/14548\/14604\/14605\/14549\/",
+      "position": 4,
+      "type": 12,
+      "children": [
+        {
+          "id": 14556,
+          "name": "Male",
+          "path": "\/1\/14548\/14604\/14605\/14549\/14555\/",
+          "position": 1,
+          "type": 13,
+          "children": [],
+          "attributeValues": [
+            {
+              "locale": "_system",
+              "name": "_id",
+              "type": "1",
+              "value": "radio_1",
+              "id": "null"
+            },
+            {
+              "locale": "_system",
+              "name": "includeinemail",
+              "type": "1",
+              "value": "true",
+              "id": "null"
+            }
+          ]
+        },
+        {
+          "id": 14557,
+          "name": "Female",
+          "path": "\/1\/14548\/14604\/14605\/14549\/14555\/",
+          "position": 2,
+          "type": 13,
+          "children": [],
+          "attributeValues": [
+            {
+              "locale": "_system",
+              "name": "_id",
+              "type": "1",
+              "value": "radio_2",
+              "id": "null"
+            },
+            {
+              "locale": "_system",
+              "name": "includeinemail",
+              "type": "1",
+              "value": "true",
+              "id": "null"
+            },
+            {
+              "locale": "_system",
+              "name": "value",
+              "type": "1",
+              "value": "value",
+              "id": "null"
+            }
+          ]
+        }
+      ],
+      "attributeValues": [
+        {
+          "locale": "_system",
+          "name": "orientation",
+          "type": "1",
+          "value": "vertical",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "_id",
+          "type": "1",
+          "value": "radiog_1",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "includeinemail",
+          "type": "1",
+          "value": "true",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "hideLabel",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        }
+      ]
     }
 
       ]

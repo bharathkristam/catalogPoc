@@ -1,0 +1,18 @@
+<span ng-if="!hideLabel">
+    <label for="radioGroup_{{data.id}}" ng-bind="data.name"></label>&nbsp;:
+</span>
+
+<span ng-if="orientation == 'vertical'" id="radioGroup_{{data.id}}">
+
+  <div ng-repeat="radio in data.children">
+      <!-- empty space to come in place of label !-->
+      <span> &nbsp;</span>
+      <ca-radiobutton data="radio" parentContainerId="{{data.id}}" group="radio_{{data.id}}"></ca-radiobutton>
+  </div>
+</span>
+
+<span ng-if="orientation == 'horizontal'" id="radioGroup_{{data.id}}">
+    <span ng-repeat="radio in data.children">
+        <ca-radiobutton data="radio" parentContainerId="{{data.id}}" group="radio_{{data.id}}"></ca-radiobutton>
+    </span>
+</span>
