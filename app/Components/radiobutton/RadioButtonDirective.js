@@ -20,7 +20,6 @@
                 var data = scope.data;
                 var jElement = $(element);
                 var radioBox = jElement.find('input');
-                debugger;
                 var attrList = data["attributeValues"];
                 if(attrList && attrList.length > 0) {
                     for(var i in attrList){
