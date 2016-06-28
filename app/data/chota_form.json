@@ -267,6 +267,72 @@
           "id": "null"
         }
       ]
+    },
+    {
+      "id": 14602,
+      "name": "Progress Bar",
+      "path": "\/1\/14548\/14604\/14605\/14549\/",
+      "position": 11,
+      "type": 23,
+      "children": [],
+      "attributeValues": [
+        {
+          "locale": "_system",
+          "name": "minvalue",
+          "type": "1",
+          "value": "1",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "intgain",
+          "type": "1",
+          "value": "1",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "_id",
+          "type": "1",
+          "value": "slider_1",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "includeinemail",
+          "type": "1",
+          "value": "true",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "hidden",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "maxvalue",
+          "type": "1",
+          "value": "100",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "disabled",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "hideLabel",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        }
+      ]
     }
 
       ]
