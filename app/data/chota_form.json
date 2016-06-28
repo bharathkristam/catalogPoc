@@ -402,7 +402,7 @@
           "locale": "_system",
           "name": "orientation",
           "type": "1",
-          "value": "vertical",
+          "value": "horizontal",
           "id": "null"
         },
         {
