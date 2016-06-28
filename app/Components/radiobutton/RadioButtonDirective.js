@@ -1,28 +1,30 @@
 (function (angular) {
     'use strict';
 
-    angular.module('components').directive('caTextfield', caTextfieldDirective);
+    angular.module('components').directive('caRadiobutton', caRadioButtonDirective);
 
-    caTextfieldDirective.$inject = ['catalog.formRenderHelper'];
+    caRadioButtonDirective.$inject = ['catalog.formRenderHelper'];
 
-    function caTextfieldDirective (formRenderHelper) {
+    function caRadioButtonDirective (formRenderHelper) {
         return {
             restrict: 'E',
-            templateUrl : 'Components/textfield/TextField.html',
+            templateUrl : 'Components/radiobutton/RadioButton.html',
             scope : {
+                group : '@',
                 data : '=',
                 rendererCfg : '=',
-                parentFormId : '@'
+                parentContainerId : '@'
+
             },
             link: function (scope, element, attrs) {
                 var data = scope.data;
                 var jElement = $(element);
-                var textField = jElement.find('input')[0];
-                scope.textFieldLabel = data["name"];
+                var radioBox = jElement.find('input');
+                debugger;
                 var attrList = data["attributeValues"];
                 if(attrList && attrList.length > 0) {
                     for(var i in attrList){
-                        $(textField).attr(formRenderHelper.getAttributeByAlias(attrList[i]["name"]), attrList[i]["value"]);
+                        radioBox.attr(formRenderHelper.getAttributeByAlias(attrList[i]["name"]), attrList[i]["value"]);
                     }
                 }
 
