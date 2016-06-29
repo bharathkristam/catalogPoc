@@ -37,8 +37,12 @@
                             scope.orientation = attrList[i].value;
                             continue;
                         }
+                        var attribute = formRenderHelper.getProcessedAttribute(attrList[i]);
 
-                        radioBox.attr(formRenderHelper.getAttributeByAlias(attrList[i]["name"]), attrList[i]["value"]);
+                        if(attribute) {
+                            radioBox.attr(attrList[i]["name"], attrList[i]["value"]);
+                        }
+
                     }
                 }
                 // let the attribute directive be executed

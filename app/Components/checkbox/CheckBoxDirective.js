@@ -26,7 +26,10 @@
                 var attrList = data["attributeValues"];
                 if(attrList && attrList.length > 0) {
                     for(var i in attrList){
-                        cb.attr(formRenderHelper.getAttributeByAlias(attrList[i]["name"]), attrList[i]["value"]);
+                        var attribute = formRenderHelper.getProcessedAttribute(attrList[i]);
+                        if(attribute) {
+                            cb.attr(formRenderHelper.getAttributeByAlias(attrList[i]["name"]), attrList[i]["value"]);
+                        }
                     }
                 }
 
