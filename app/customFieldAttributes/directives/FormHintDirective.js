@@ -8,7 +8,7 @@
                 scope.fieldId = attrs.id;
                 if (attrs.hint) {
                     scope.hintSupport = attrs.hint;
-                    var tpl = '<div role="presentation" style="color: black;font-size: 10px; line-height: 10px">{{hintSupport}}</div>';
+                    var tpl = '<div role="presentation" style="color: black;font-size: 10px; line-height: 10px" ng-bind="hintSupport" aria-label="{{hintSupport}}"></div>';
                     var el = $compile(tpl)(scope);
                     element.after(el);
                 }
