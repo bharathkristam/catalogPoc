@@ -1,340 +1,1730 @@
 {
-  "id": 14629,
-  "name": "TextFieldForm",
-  "path": "\/1\/14628\/",
-  "position": 2,
-  "type": 2,
-  "children": [
-    {
-      "id": 14632,
-      "name": "User Name",
-      "path": "\/1\/14628\/14629\/",
-      "position": 1,
-      "type": 5,
-      "children": [],
-      "attributeValues": [
-        {
-          "locale": "_system",
-          "name": "emptyText",
-          "type": "1",
-          "value": "Enter User Name",
-          "id": "null"
+  "root": {
+    "Args": "10004",
+    "COLLECTION": {
+      "access_control": {
+        "access_to_Workflow_SuperUser_group": 1,
+        "add_request": 1,
+        "add_request_line_item": 0,
+        "approve_request": 0,
+        "cancel_allowed_state": 0,
+        "cancel_request": 1,
+        "delegate_pending_action": 0,
+        "delete_request": 1,
+        "edit_request": 1,
+        "fulfill_request": 0,
+        "general_info_columns": {
+          "req.createdDate": 1,
+          "req.desiredDate": 1,
+          "req.id": 1,
+          "req.modifiedDate": 1,
+          "req.name": 1,
+          "req.priority": 1,
+          "req.requestByUser": 1,
+          "req.requestForUser": 1,
+          "req.status": 1
         },
-        {
-          "locale": "_system",
-          "name": "maxlength",
-          "type": "1",
-          "value": "15",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "hint",
-          "type": "1",
-          "value": "Hint: User Name",
-          "id": "null"
+        "hold_or_resume_request": 0,
+        "perform_action": false,
+        "proxy_request": 1,
+        "proxy_request_submission": 1,
+        "pushthrough_request": 1,
+        "reassign_pending_action": 1,
+        "save_cart_as_request": 1,
+        "show_additional_info": 1,
+        "show_amount_column": 1,
+        "show_general_info": 1,
+        "show_general_info_in_catalog_item_details": 0,
+        "show_period_column": 1,
+        "show_related_ticket_column": 1,
+        "submit_request": 0,
+        "take_or_return_pending_action": 0,
+        "transfer_pending_action": 1,
+        "viewwarning_request": 1
+      },
+      "COLLECTION": {
+        "COLLECTION": {
+          "COLLECTION": {
+            "COLLECTION": [{
+              "INFO": {
+                "associated_offerings_count": 0,
+                "associated_offerings_ids": "[]",
+                "associated_offerings_names": {
+                  "LITERAL": [{
+                    "___type": "string"
+                  }, {
+                    "___type": "string"
+                  }]
+                }
+              },
+              "usm_rate_definition": [{
+                "___name": 10001,
+                "allowed_cancellation_state": null,
+                "approval_level": 0,
+                "approval_process": 0,
+                "association_id": -1,
+                "base_id": -1,
+                "category": -1,
+                "category_class": -1,
+                "category_subclass": -1,
+                "changeto_item_id": -1,
+                "code": null,
+                "currency_1": "USD",
+                "currency_2": "United States Dollar",
+                "date_1": null,
+                "date_2": null,
+                "date_available": {
+                  "value": "11/15/2005 05:30:00",
+                  "ms": 1132012800000
+                },
+                "date_unavailable": null,
+                "effective": 0,
+                "enum_1": null,
+                "enum_10": null,
+                "enum_11": null,
+                "enum_12": null,
+                "enum_13": null,
+                "enum_14": null,
+                "enum_15": null,
+                "enum_2": null,
+                "enum_3": null,
+                "enum_4": null,
+                "enum_5": null,
+                "enum_6": null,
+                "enum_7": null,
+                "enum_8": null,
+                "enum_9": null,
+                "external_id": null,
+                "formheaderdisplay": 1,
+                "info_link": null,
+                "is_hidden": 0,
+                "item_id": 10001,
+                "item_text": "Item",
+                "item_type": 1,
+                "notes_id": null,
+                "numeric_1": null,
+                "numeric_2": null,
+                "rate_col": 0,
+                "rate_plan_id": 10001,
+                "rate_row": 0,
+                "sd_request_area": null,
+                "service_option_id": 5,
+                "status": 1,
+                "sub_note_control": null,
+                "text_1": null,
+                "text_2": null,
+                "text_3": null,
+                "text_4": null,
+                "text_5": null,
+                "track_as_asset": 0
+              }, {
+                "___name": 10002,
+                "allowed_cancellation_state": null,
+                "approval_level": 0,
+                "approval_process": 0,
+                "association_id": -1,
+                "base_id": -1,
+                "category": -1,
+                "category_class": -1,
+                "category_subclass": -1,
+                "changeto_item_id": -1,
+                "code": null,
+                "currency_1": "USD",
+                "currency_2": "United States Dollar",
+                "date_1": null,
+                "date_2": null,
+                "date_available": {
+                  "value": "11/15/2005 05:30:00",
+                  "ms": 1132012800000
+                },
+                "date_unavailable": null,
+                "effective": 0,
+                "enum_1": null,
+                "enum_10": null,
+                "enum_11": null,
+                "enum_12": null,
+                "enum_13": null,
+                "enum_14": null,
+                "enum_15": null,
+                "enum_2": null,
+                "enum_3": null,
+                "enum_4": null,
+                "enum_5": null,
+                "enum_6": null,
+                "enum_7": null,
+                "enum_8": null,
+                "enum_9": null,
+                "external_id": null,
+                "formheaderdisplay": 1,
+                "info_link": null,
+                "is_hidden": 0,
+                "item_id": 10002,
+                "item_text": "Description",
+                "item_type": 1,
+                "notes_id": null,
+                "numeric_1": null,
+                "numeric_2": null,
+                "rate_col": 1,
+                "rate_plan_id": 10001,
+                "rate_row": 0,
+                "sd_request_area": null,
+                "service_option_id": 5,
+                "status": 1,
+                "sub_note_control": null,
+                "text_1": null,
+                "text_2": null,
+                "text_3": null,
+                "text_4": null,
+                "text_5": null,
+                "track_as_asset": 0
+              }, {
+                "___name": 10003,
+                "allowed_cancellation_state": null,
+                "approval_level": 0,
+                "approval_process": 0,
+                "association_id": -1,
+                "base_id": -1,
+                "category": -1,
+                "category_class": -1,
+                "category_subclass": -1,
+                "changeto_item_id": -1,
+                "code": null,
+                "currency_1": "USD",
+                "currency_2": "United States Dollar",
+                "date_1": null,
+                "date_2": null,
+                "date_available": {
+                  "value": "11/15/2005 05:30:00",
+                  "ms": 1132012800000
+                },
+                "date_unavailable": null,
+                "effective": 0,
+                "enum_1": null,
+                "enum_10": null,
+                "enum_11": null,
+                "enum_12": null,
+                "enum_13": null,
+                "enum_14": null,
+                "enum_15": null,
+                "enum_2": null,
+                "enum_3": null,
+                "enum_4": null,
+                "enum_5": null,
+                "enum_6": null,
+                "enum_7": null,
+                "enum_8": null,
+                "enum_9": null,
+                "external_id": null,
+                "formheaderdisplay": 1,
+                "info_link": null,
+                "is_hidden": 0,
+                "item_id": 10003,
+                "item_text": "Rate",
+                "item_type": 1,
+                "notes_id": null,
+                "numeric_1": null,
+                "numeric_2": null,
+                "rate_col": 2,
+                "rate_plan_id": 10001,
+                "rate_row": 0,
+                "sd_request_area": null,
+                "service_option_id": 5,
+                "status": 1,
+                "sub_note_control": null,
+                "text_1": null,
+                "text_2": null,
+                "text_3": null,
+                "text_4": null,
+                "text_5": null,
+                "track_as_asset": 0
+              }, {
+                "___name": 10004,
+                "allowed_cancellation_state": null,
+                "approval_level": 0,
+                "approval_process": 0,
+                "association_id": -1,
+                "base_id": -1,
+                "category": -1,
+                "category_class": -1,
+                "category_subclass": -1,
+                "changeto_item_id": -1,
+                "code": null,
+                "currency_1": "USD",
+                "currency_2": "United States Dollar",
+                "date_1": null,
+                "date_2": null,
+                "date_available": {
+                  "value": "11/15/2005 05:30:00",
+                  "ms": 1132012800000
+                },
+                "date_unavailable": null,
+                "effective": 0,
+                "enum_1": null,
+                "enum_10": null,
+                "enum_11": null,
+                "enum_12": null,
+                "enum_13": null,
+                "enum_14": null,
+                "enum_15": null,
+                "enum_2": null,
+                "enum_3": null,
+                "enum_4": null,
+                "enum_5": null,
+                "enum_6": null,
+                "enum_7": null,
+                "enum_8": null,
+                "enum_9": null,
+                "external_id": null,
+                "formheaderdisplay": 1,
+                "info_link": null,
+                "is_hidden": 0,
+                "item_id": 10004,
+                "item_text": "Estimated Completion",
+                "item_type": 1,
+                "notes_id": null,
+                "numeric_1": null,
+                "numeric_2": null,
+                "rate_col": 3,
+                "rate_plan_id": 10001,
+                "rate_row": 0,
+                "sd_request_area": null,
+                "service_option_id": 5,
+                "status": 1,
+                "sub_note_control": null,
+                "text_1": null,
+                "text_2": null,
+                "text_3": null,
+                "text_4": null,
+                "text_5": null,
+                "track_as_asset": 0
+              }, {
+                "___name": 10005,
+                "allowed_cancellation_state": null,
+                "approval_level": 0,
+                "approval_process": 0,
+                "association_id": -1,
+                "base_id": -1,
+                "category": -1,
+                "category_class": -1,
+                "category_subclass": -1,
+                "changeto_item_id": -1,
+                "code": null,
+                "currency_1": "USD",
+                "currency_2": "United States Dollar",
+                "date_1": null,
+                "date_2": null,
+                "date_available": {
+                  "value": "10/10/2011 00:00:00",
+                  "ms": 1318185000000
+                },
+                "date_unavailable": null,
+                "effective": 0,
+                "enum_1": -1,
+                "enum_10": -1,
+                "enum_11": -1,
+                "enum_12": 0,
+                "enum_13": 0,
+                "enum_14": 0,
+                "enum_15": 0,
+                "enum_2": -1,
+                "enum_3": -1,
+                "enum_4": -1,
+                "enum_5": -1,
+                "enum_6": -1,
+                "enum_7": -1,
+                "enum_8": -1,
+                "enum_9": -1,
+                "external_id": null,
+                "formheaderdisplay": 1,
+                "info_link": null,
+                "is_hidden": 0,
+                "item_id": 10005,
+                "item_text": "Form",
+                "item_type": 1,
+                "notes_id": null,
+                "numeric_1": "0.0",
+                "numeric_2": "0.0",
+                "rate_col": 4,
+                "rate_plan_id": 10001,
+                "rate_row": 0,
+                "sd_request_area": null,
+                "service_option_id": 5,
+                "status": 1,
+                "sub_note_control": null,
+                "text_1": null,
+                "text_2": null,
+                "text_3": null,
+                "text_4": null,
+                "text_5": null,
+                "track_as_asset": 0
+              }]
+            }, {
+              "INFO": {
+                "associated_offerings_count": 1,
+                "associated_offerings_ids": "[10004]",
+                "associated_offerings_names": {
+                  "LITERAL": ["Application Hosting", {
+                    "___type": "string"
+                  }]
+                }
+              },
+              "LITERAL": "1",
+              "usm_rate_definition": [{
+                "___name": 10007,
+                "allowed_cancellation_state": null,
+                "approval_level": 1,
+                "approval_process": 2,
+                "association_id": -1,
+                "base_id": -1,
+                "category": 2,
+                "category_class": 50,
+                "category_subclass": 99,
+                "changeto_item_id": -1,
+                "code": null,
+                "currency_1": "USD",
+                "currency_2": "United States Dollar",
+                "date_1": null,
+                "date_2": null,
+                "date_available": {
+                  "value": "11/15/2005 05:30:00",
+                  "ms": 1132012800000
+                },
+                "date_unavailable": null,
+                "effective": 0,
+                "enum_1": -1,
+                "enum_10": -1,
+                "enum_11": -1,
+                "enum_12": 0,
+                "enum_13": 0,
+                "enum_14": 0,
+                "enum_15": null,
+                "enum_2": -1,
+                "enum_3": -1,
+                "enum_4": -1,
+                "enum_5": 0,
+                "enum_6": -1,
+                "enum_7": -1,
+                "enum_8": -1,
+                "enum_9": -1,
+                "external_id": null,
+                "formheaderdisplay": 1,
+                "iid": 9996,
+                "info_link": null,
+                "is_hidden": 0,
+                "item_id": 10007,
+                "item_text": "Production Application Hosting",
+                "item_type": 0,
+                "notes_id": null,
+                "numeric_1": "0.0",
+                "numeric_2": "0.0",
+                "offid": 10004,
+                "rate_col": 0,
+                "rate_plan_id": 10001,
+                "rate_row": 1,
+                "sd_request_area": null,
+                "service_option_id": 6,
+                "status": 1,
+                "sub_note_control": null,
+                "text_1": null,
+                "text_2": null,
+                "text_3": null,
+                "text_4": null,
+                "text_5": null,
+                "track_as_asset": 0
+              }, {
+                "___name": 10008,
+                "allowed_cancellation_state": null,
+                "approval_level": 1,
+                "approval_process": 2,
+                "association_id": -1,
+                "base_id": -1,
+                "category": 2,
+                "category_class": 50,
+                "category_subclass": 99,
+                "changeto_item_id": -1,
+                "code": null,
+                "currency_1": "USD",
+                "currency_2": "United States Dollar",
+                "date_1": null,
+                "date_2": null,
+                "date_available": {
+                  "value": "11/15/2005 05:30:00",
+                  "ms": 1132012800000
+                },
+                "date_unavailable": null,
+                "effective": 0,
+                "enum_1": null,
+                "enum_10": null,
+                "enum_11": null,
+                "enum_12": null,
+                "enum_13": null,
+                "enum_14": null,
+                "enum_15": null,
+                "enum_2": null,
+                "enum_3": null,
+                "enum_4": null,
+                "enum_5": null,
+                "enum_6": null,
+                "enum_7": null,
+                "enum_8": null,
+                "enum_9": null,
+                "external_id": null,
+                "formheaderdisplay": 1,
+                "iid": 9997,
+                "info_link": null,
+                "is_hidden": 0,
+                "item_id": 10008,
+                "item_text": "<HTML>Hardware setup for production<br\/>application hosting<\/HTML>",
+                "item_type": 0,
+                "notes_id": null,
+                "numeric_1": null,
+                "numeric_2": null,
+                "offid": 10004,
+                "rate_col": 1,
+                "rate_plan_id": 10001,
+                "rate_row": 1,
+                "sd_request_area": null,
+                "service_option_id": 6,
+                "status": 1,
+                "sub_note_control": null,
+                "text_1": null,
+                "text_2": null,
+                "text_3": null,
+                "text_4": null,
+                "text_5": null,
+                "track_as_asset": 0
+              }, {
+                "___name": 10009,
+                "allowed_cancellation_state": null,
+                "approval_level": 1,
+                "approval_process": 2,
+                "association_id": -1,
+                "base_id": -1,
+                "category": 2,
+                "category_class": 10,
+                "category_subclass": 10,
+                "changeto_item_id": -1,
+                "code": null,
+                "currency_1": "USD",
+                "currency_2": "United States Dollar",
+                "date_1": null,
+                "date_2": null,
+                "date_available": {
+                  "value": "10/10/2011 00:00:00",
+                  "ms": 1318185000000
+                },
+                "date_unavailable": null,
+                "effective": 0,
+                "enum_1": 0,
+                "enum_10": -1,
+                "enum_11": -1,
+                "enum_12": 0,
+                "enum_13": 0,
+                "enum_14": 0,
+                "enum_15": 0,
+                "enum_2": 0,
+                "enum_3": 1,
+                "enum_4": 1,
+                "enum_5": 0,
+                "enum_6": -1,
+                "enum_7": 1,
+                "enum_8": -1,
+                "enum_9": 1,
+                "external_id": null,
+                "formheaderdisplay": 1,
+                "iid": 9998,
+                "info_link": null,
+                "is_hidden": 0,
+                "item_id": 10009,
+                "item_text": "Cost:",
+                "item_type": 3,
+                "notes_id": null,
+                "numeric_1": "100.0",
+                "numeric_2": "1.0",
+                "offid": 10004,
+                "rate_col": 2,
+                "rate_plan_id": 10001,
+                "rate_row": 1,
+                "sd_request_area": null,
+                "service_option_id": 6,
+                "status": 1,
+                "sub_note_control": null,
+                "text_1": "each",
+                "text_2": null,
+                "text_3": null,
+                "text_4": "100",
+                "text_5": null,
+                "track_as_asset": 0
+              }, {
+                "___name": 10010,
+                "allowed_cancellation_state": null,
+                "approval_level": 1,
+                "approval_process": 2,
+                "association_id": -1,
+                "base_id": -1,
+                "category": 2,
+                "category_class": 50,
+                "category_subclass": 99,
+                "changeto_item_id": -1,
+                "code": null,
+                "currency_1": "USD",
+                "currency_2": "United States Dollar",
+                "date_1": null,
+                "date_2": null,
+                "date_available": {
+                  "value": "11/15/2005 05:30:00",
+                  "ms": 1132012800000
+                },
+                "date_unavailable": null,
+                "effective": 0,
+                "enum_1": -1,
+                "enum_10": -1,
+                "enum_11": -1,
+                "enum_12": 0,
+                "enum_13": 0,
+                "enum_14": 0,
+                "enum_15": null,
+                "enum_2": -1,
+                "enum_3": -1,
+                "enum_4": -1,
+                "enum_5": 0,
+                "enum_6": -1,
+                "enum_7": -1,
+                "enum_8": -1,
+                "enum_9": -1,
+                "external_id": null,
+                "formheaderdisplay": 1,
+                "iid": 9999,
+                "info_link": "help\/catalog_contents\/sladescription.html",
+                "is_hidden": 0,
+                "item_id": 10010,
+                "item_text": "<HTML>Estimate: 1 week to complete request<\/HTML>",
+                "item_type": 0,
+                "notes_id": null,
+                "numeric_1": "0.0",
+                "numeric_2": "0.0",
+                "offid": 10004,
+                "rate_col": 3,
+                "rate_plan_id": 10001,
+                "rate_row": 1,
+                "sd_request_area": null,
+                "service_option_id": 6,
+                "status": 1,
+                "sub_note_control": null,
+                "text_1": null,
+                "text_2": null,
+                "text_3": null,
+                "text_4": null,
+                "text_5": null,
+                "track_as_asset": 0
+              }, {
+                "___name": 10011,
+                "allowed_cancellation_state": null,
+                "approval_level": 0,
+                "approval_process": 0,
+                "association_id": -1,
+                "base_id": -1,
+                "category": 2,
+                "category_class": 10,
+                "category_subclass": 10,
+                "changeto_item_id": -1,
+                "code": null,
+                "currency_1": "USD",
+                "currency_2": "United States Dollar",
+                "date_1": null,
+                "date_2": null,
+                "date_available": {
+                  "value": "10/10/2011 00:00:00",
+                  "ms": 1318185000000
+                },
+                "date_unavailable": null,
+                "effective": 0,
+                "enum_1": 0,
+                "enum_10": -1,
+                "enum_11": -1,
+                "enum_12": 0,
+                "enum_13": 0,
+                "enum_14": 0,
+                "enum_15": 0,
+                "enum_2": -1,
+                "enum_3": -1,
+                "enum_4": -1,
+                "enum_5": -1,
+                "enum_6": -1,
+                "enum_7": -1,
+                "enum_8": -1,
+                "enum_9": -1,
+                "external_id": null,
+                "formheaderdisplay": 1,
+                "iid": 10000,
+                "info_link": null,
+                "is_hidden": 0,
+                "item_id": 10011,
+                "item_text": "Application hosting",
+                "item_type": 14,
+                "notes_id": null,
+                "numeric_1": "0.0",
+                "numeric_2": "0.0",
+                "offid": 10004,
+                "rate_col": 4,
+                "rate_plan_id": 10001,
+                "rate_row": 1,
+                "sd_request_area": null,
+                "service_option_id": 6,
+                "status": 1,
+                "sub_note_control": null,
+                "text_1": "10002",
+                "text_2": "Application Hosting Form",
+                "text_3": null,
+                "text_4": null,
+                "text_5": null,
+                "track_as_asset": 0
+              }]
+            }]
+          },
+          "usm_rate_plan": {
+            "___name": 10001,
+            "code": null,
+            "date_available": {
+              "value": "11/15/2005 05:30:00",
+              "ms": 1132012800000
+            },
+            "date_cancelled": null,
+            "date_created": {
+              "value": "11/15/2005 05:30:00",
+              "ms": 1132012800000
+            },
+            "date_last_modified": {
+              "value": "01/01/2012 15:40:10",
+              "ms": 1325412610000
+            },
+            "date_unavailable": null,
+            "description": "Set up production environment for application hosting",
+            "domain": "ca.com",
+            "folder": null,
+            "has_header": 1,
+            "iid": 10002,
+            "is_inherited": 0,
+            "layout": 1,
+            "notes_id": null,
+            "rate_plan_id": 10001,
+            "rate_plan_name": "Application Hosting",
+            "rate_plan_type": 0,
+            "sd_request_area": null,
+            "selection_type": 2,
+            "sort_order_no": 3000900,
+            "status": 1,
+            "sub_note_control": null,
+            "total_cols": 5,
+            "total_rows": 2
+          }
         }
-      ]
-    },
-    {
-      "id": 14551,
-      "name": "User Address",
-      "path": "\/1\/14548\/14604\/14605\/14549\/",
-      "position": 2,
-      "type": 8,
-      "children": [],
-      "attributeValues": [
-        {
-          "locale": "_system",
-          "name": "_id",
-          "type": "1",
-          "value": "txta_1",
-          "id": "null"
+      },
+      "COUNT": {
+        "approval_pending_action_count": 0,
+        "cart_count": 0,
+        "cart_request_id": -1,
+        "closed_requests_count": 1,
+        "open_requests_count": 2,
+        "pending_action_count": 0
+      },
+      "FEATURED_OFFERINGS": {
+        "___type": "array",
+        "FEATURED_OFFERINGS_ID_LIST": [""]
+      },
+      "icuser": {
+        "accountid": "10001",
+        "address_1": "",
+        "address_2": "",
+        "address1": "",
+        "address2": "",
+        "address3": "",
+        "address4": "",
+        "address5": "",
+        "address6": "",
+        "alias": "",
+        "city": "",
+        "comment": "",
+        "common_name": "Administrator, Service Delivery",
+        "country": "",
+        "county": "",
+        "data1": "",
+        "data2": "",
+        "data3": "",
+        "data4": "",
+        "data5": "",
+        "data6": "",
+        "data7": "",
+        "default_domain": "ca.com",
+        "default_role": "spadministrator",
+        "delegate": {
+          "req_delegateID": null
         },
-        {
-          "locale": "_system",
-          "name": "includeinemail",
-          "type": "1",
-          "value": "true",
-          "id": "null"
+        "domainlevels": {
+          "___type": "array",
+          "domainlevel": [{
+            "domain": "ca.com",
+            "level": "0"
+          }]
         },
-        {
-          "locale": "_system",
-          "name": "required",
-          "type": "1",
-          "value": "false",
-          "id": "null"
+        "domainnames": {
+          "usm_tenant": {
+            "___name": "ca.com",
+            "tenant_id": "ca.com",
+            "tenant_name": "ca.com"
+          }
         },
-        {
-          "locale": "_system",
-          "name": "hideLabel",
-          "type": "1",
-          "value": "false",
-          "id": "null"
-        }
-      ],
-      "tenant": {
-        "id": "ca.com",
-        "": "tenant",
-        "name": "ca.com",
+        "domainroles": {
+          "___type": "array",
+          "domainrole": [{
+            "domain": "ca.com",
+            "role": "spadministrator"
+          }]
+        },
+        "email": "",
+        "fax": "",
+        "first_name": "Service Delivery",
+        "given_name": "Service Delivery",
+        "last_name": "Administrator",
+        "location_comment": "",
+        "location_fax": "",
+        "location_name": "",
+        "location_phone": "",
+        "location_uuid": "",
+        "mailing_address1": "",
+        "mailing_address2": "",
+        "mailing_address3": "",
+        "mailing_address4": "",
+        "mailing_address5": "",
+        "mailing_address6": "",
+        "manager": null,
+        "middle_name": "",
+        "mobile": "",
+        "pager": "",
+        "postalCode": "",
+        "primary_phone": "",
+        "request_account": "ca.com:spadmin",
+        "request_account_id": "10001",
+        "secondary_phone": "",
+        "serreqdelegates": {
+          "___type": "array"
+        },
+        "state": "",
+        "status": "0",
+        "SysDefGroups": {
+          "___type": "array"
+        },
+        "telephone": "",
+        "time_zone_code": "GMT+05:30 Asia\/Calcutta",
+        "title": "",
+        "user_id": "spadmin",
+        "UserDefGroups": {
+          "___type": "array",
+          "LITERAL": ["Workflow Admin", "Workflow SuperUser"]
+        },
+        "userMapStatus": "COMPLETE",
+        "uuid": "69B6A51CA92DFF4192F3D3D389EB6B96",
+        "zipcode": ""
+      },
+      "INFO": {
+        "access_control": {
+          "access_to_Workflow_SuperUser_group": 1,
+          "add_request": 1,
+          "add_request_line_item": 0,
+          "approve_request": 0,
+          "cancel_allowed_state": 0,
+          "cancel_request": 1,
+          "delegate_pending_action": 0,
+          "delete_request": 1,
+          "edit_request": 1,
+          "fulfill_request": 0,
+          "general_info_columns": {
+            "req.createdDate": 1,
+            "req.desiredDate": 1,
+            "req.id": 1,
+            "req.modifiedDate": 1,
+            "req.name": 1,
+            "req.priority": 1,
+            "req.requestByUser": 1,
+            "req.requestForUser": 1,
+            "req.status": 1
+          },
+          "hold_or_resume_request": 0,
+          "perform_action": false,
+          "proxy_request": 1,
+          "proxy_request_submission": 1,
+          "pushthrough_request": 1,
+          "reassign_pending_action": 1,
+          "save_cart_as_request": 1,
+          "show_additional_info": 1,
+          "show_amount_column": 1,
+          "show_general_info": 1,
+          "show_general_info_in_catalog_item_details": 0,
+          "show_period_column": 1,
+          "show_related_ticket_column": 1,
+          "submit_request": 0,
+          "take_or_return_pending_action": 0,
+          "transfer_pending_action": 1,
+          "viewwarning_request": 1
+        },
+        "allow_only_one_offering_per_request": false,
+        "allow_row_level_attachments": true,
+        "allow_row_level_notes": true,
+        "cart_count": 0,
+        "CURRENT_OFFERING": {
+          "description": "Set up production environment for application hosting with Bronze\/Silver\/Gold SLA",
+          "id": 10004,
+          "link": "",
+          "name": "Application Hosting"
+        },
+        "default_request_name": "Application Hosting",
+        "display_form_headers": true,
+        "display_service_health": false,
+        "form_data": {
+          "___type": "array",
+          "COLLECTION": [{
+            "OFFERINGS": {
+              "___type": "array",
+              "OFFERING": [{
+                "offering_id": "10004",
+                "offering_name": "Application Services - Application Hosting",
+                "offering_name_only": "Application Hosting",
+                "RATE_PLANS": {
+                  "___type": "array",
+                  "RATE_PLAN": [{
+                    "FORMS": {
+                      "___type": "array",
+                      "NEW_FORM": [{
+                        "form_name": "Application hosting",
+                        "formId": 10002,
+                        "hideformheader": false,
+                        "item_id": "10011",
+                        "scope": "1"
+                      }]
+                    },
+                    "rate_plan_id": "10001",
+                    "rate_plan_name": "Application Hosting",
+                    "usm_rate_plan": {
+                      "usm_rate_plan": {
+                        "___name": 10001,
+                        "code": null,
+                        "date_available": {
+                          "value": "11/15/2005 05:30:00",
+                          "ms": 1132012800000
+                        },
+                        "date_cancelled": null,
+                        "date_created": {
+                          "value": "11/15/2005 05:30:00",
+                          "ms": 1132012800000
+                        },
+                        "date_last_modified": {
+                          "value": "01/01/2012 15:40:10",
+                          "ms": 1325412610000
+                        },
+                        "date_unavailable": null,
+                        "description": "Set up production environment for application hosting",
+                        "domain": "ca.com",
+                        "folder": null,
+                        "has_header": 1,
+                        "is_inherited": 0,
+                        "notes_id": null,
+                        "rate_plan_id": 10001,
+                        "rate_plan_name": "Application Hosting",
+                        "rate_plan_type": 0,
+                        "sd_request_area": null,
+                        "selection_type": 2,
+                        "sort_order_no": 3000900,
+                        "status": 1,
+                        "sub_note_control": null,
+                        "total_cols": 5,
+                        "total_rows": 2
+                      }
+                    }
+                  }]
+                },
+                "usm_offering": {
+                  "usm_offering": {
+                    "___name": 10004,
+                    "approval_level": 0,
+                    "approval_process": 2,
+                    "base_offering": -1,
+                    "business_hour_id": null,
+                    "calendar_id": null,
+                    "code": null,
+                    "date_available": {
+                      "value": "11/15/2005 05:30:00",
+                      "ms": 1132012800000
+                    },
+                    "date_cancelled": null,
+                    "date_created": {
+                      "value": "11/15/2005 05:30:00",
+                      "ms": 1132012800000
+                    },
+                    "date_last_modified": {
+                      "value": "02/11/2016 19:33:43",
+                      "ms": 1455199423000
+                    },
+                    "date_unavailable": null,
+                    "default_on_approval_status": 2000,
+                    "description": "Set up production environment for application hosting with Bronze\/Silver\/Gold SLA",
+                    "domain": "ca.com",
+                    "feature_sort_order": 0,
+                    "feature_sort_order_type": 0,
+                    "folder_display_type": 0,
+                    "image_file": "OotbOfferings\/host.svg",
+                    "info_link": null,
+                    "is_leaf": 1,
+                    "mobile_enabled": 0,
+                    "notes_id": null,
+                    "offering_id": 10004,
+                    "offering_name": "Application Hosting",
+                    "overview_text": null,
+                    "parent_id": 10002,
+                    "path": "10001\/10002\/10004\/",
+                    "rateplanheaderdisplay": 0,
+                    "sd_request_area": null,
+                    "selection_type": 2,
+                    "sort_order": 0,
+                    "sort_order_no": 6,
+                    "sort_order_type": 5,
+                    "status": 1,
+                    "sub_note_control": null,
+                    "top_base_offering": -1,
+                    "tree_level": 3,
+                    "type": 3,
+                    "version": "11.0"
+                  }
+                }
+              }]
+            }
+          }],
+          "formsJSON": ["[{\"id\" : 10002,\n\"name\" : \"Application Hosting Form\",\n\"path\" : \"\\\/1\\\/10001\\\/\",\n\"position\" : 2,\n\"type\" : 2,\n\"children\" : [{\"id\" : 12191,\n\"name\" : \"Application Hosting\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/\",\n\"position\" : 1,\n\"type\" : 16,\n\"children\" : [{\"id\" : 12193,\n\"name\" : \"Application name\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12191\\\/\",\n\"position\" : 1,\n\"type\" : 5,\n\"children\" : [],\n\"attributeValues\" : [{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"appname\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hidden\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Application name\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"required\",\n\"type\" : \"1\",\n\"value\" : \"true\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"password\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"disabled\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hideLabel\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}},{\"id\" : 12194,\n\"name\" : \"Number of users\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12191\\\/\",\n\"position\" : 2,\n\"type\" : 5,\n\"children\" : [],\n\"attributeValues\" : [{\"locale\" : \"_system\",\n\"name\" : \"pattern\",\n\"type\" : \"1\",\n\"value\" : \"[0-9]*\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"users\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hidden\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Number of users\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"required\",\n\"type\" : \"1\",\n\"value\" : \"true\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"password\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"disabled\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hideLabel\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}},{\"id\" : 12195,\n\"name\" : \"Description\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12191\\\/\",\n\"position\" : 3,\n\"type\" : 8,\n\"children\" : [],\n\"attributeValues\" : [{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"desc\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hidden\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Description\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"required\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"disabled\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hideLabel\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}}],\n\"attributeValues\" : [{\"locale\" : \"_system\",\n\"name\" : \"labelWidth\",\n\"type\" : \"1\",\n\"value\" : \"140\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"fieldset_1\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hidden\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Application Hosting\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"disabled\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"collapsed\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}},{\"id\" : 12192,\n\"name\" : \"SLA Details\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/\",\n\"position\" : 2,\n\"type\" : 16,\n\"children\" : [{\"id\" : 12196,\n\"name\" : \"Choose SLA\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12192\\\/\",\n\"position\" : 1,\n\"type\" : 21,\n\"children\" : [{\"id\" : 12198,\n\"name\" : \"Row\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12192\\\/12196\\\/\",\n\"position\" : 1,\n\"type\" : 22,\n\"children\" : [{\"id\" : 12201,\n\"name\" : \"SLA Types\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12192\\\/12196\\\/12198\\\/\",\n\"position\" : 1,\n\"type\" : 10,\n\"children\" : [],\n\"attributeValues\" : [{\"locale\" : \"en_US\",\n\"name\" : \"labelText\",\n\"type\" : \"1\",\n\"value\" : \"<b>Bronze<\\\/b><img style=\\\"align:top\\\" valign=\\\"top\\\" src=\\\"FileStore\\\/images\\\/offerings\\\/People\\\/goblet_bronze.png\\\"\\\/>\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"lbl_1\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hidden\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"SLA Types\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}},{\"id\" : 12202,\n\"name\" : \"Server Uptime (%)\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12192\\\/12196\\\/12198\\\/\",\n\"position\" : 2,\n\"type\" : 10,\n\"children\" : [],\n\"attributeValues\" : [{\"locale\" : \"en_US\",\n\"name\" : \"labelText\",\n\"type\" : \"1\",\n\"value\" : \"97.00% - 97.99%\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"lbl_2\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"style\",\n\"type\" : \"1\",\n\"value\" : \"\\\"width:100px;cellspacing:300px;cell-spacing:300px;cell-padding:400px;cellpadding:400px\\\"\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hidden\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Server Uptime (%)\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}},{\"id\" : 12203,\n\"name\" : \"Service Availability (%)\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12192\\\/12196\\\/12198\\\/\",\n\"position\" : 3,\n\"type\" : 10,\n\"children\" : [],\n\"attributeValues\" : [{\"locale\" : \"en_US\",\n\"name\" : \"labelText\",\n\"type\" : \"1\",\n\"value\" : \"< 99.0% <\\\/br> 5% of monthly fee credited\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"lbl_3\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hidden\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Service Availability (%)\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}},{\"id\" : 12204,\n\"name\" : \"Mean time to restore\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12192\\\/12196\\\/12198\\\/\",\n\"position\" : 4,\n\"type\" : 10,\n\"children\" : [],\n\"attributeValues\" : [{\"locale\" : \"en_US\",\n\"name\" : \"labelText\",\n\"type\" : \"1\",\n\"value\" : \"30 minutes\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"lbl_4\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hidden\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Mean time to restore\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}},{\"id\" : 12205,\n\"name\" : \"Service commitment\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12192\\\/12196\\\/12198\\\/\",\n\"position\" : 5,\n\"type\" : 10,\n\"children\" : [],\n\"attributeValues\" : [{\"locale\" : \"en_US\",\n\"name\" : \"labelText\",\n\"type\" : \"1\",\n\"value\" : \"24x7\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"lbl_5\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hidden\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Service commitment\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}}],\n\"attributeValues\" : [{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"_1\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Row\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"columnWidths\",\n\"type\" : \"1\",\n\"value\" : \"50\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}},{\"id\" : 12199,\n\"name\" : \"Row\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12192\\\/12196\\\/\",\n\"position\" : 2,\n\"type\" : 22,\n\"children\" : [],\n\"attributeValues\" : [{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"_2\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Row\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"column1\",\n\"type\" : \"1\",\n\"value\" : \"98.00% - 98.99%\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"column0\",\n\"type\" : \"1\",\n\"value\" : \"<b>Silver<\\\/b>&nbsp&nbsp&nbsp<img style=\\\"align:top\\\" valign=\\\"top\\\" src=\\\"FileStore\\\/images\\\/offerings\\\/People\\\/goblet_silver.png\\\"\\\/>\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"column3\",\n\"type\" : \"1\",\n\"value\" : \"20 minutes\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"column2\",\n\"type\" : \"1\",\n\"value\" : \"< 98.0% <\\\/br> 10% of monthly fee credited\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"column4\",\n\"type\" : \"1\",\n\"value\" : \"24x7\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}},{\"id\" : 12200,\n\"name\" : \"Row\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12192\\\/12196\\\/\",\n\"position\" : 3,\n\"type\" : 22,\n\"children\" : [],\n\"attributeValues\" : [{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"_3\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Row\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"column1\",\n\"type\" : \"1\",\n\"value\" : \"99.00% - 99.99%\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"column0\",\n\"type\" : \"1\",\n\"value\" : \"<b>Gold<\\\/B>&nbsp&nbsp&nbsp&nbsp&nbsp<img style=\\\"align:top\\\" valign=\\\"top\\\" src=\\\"FileStore\\\/images\\\/offerings\\\/People\\\/goblet_gold.png\\\"\\\/>\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"column3\",\n\"type\" : \"1\",\n\"value\" : \"10 minutes\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"column2\",\n\"type\" : \"1\",\n\"value\" : \"< 99.0% <\\\/br> 5% of monthly fee credited\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"column4\",\n\"type\" : \"1\",\n\"value\" : \"24x7\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}}],\n\"attributeValues\" : [{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"slalist\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"onselect\",\n\"type\" : \"1\",\n\"value\" : \"ca_fd.js.setSLADescription()\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hidden\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"sortable\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"pageSize\",\n\"type\" : \"1\",\n\"value\" : \"0\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"min_rows\",\n\"type\" : \"1\",\n\"value\" : \"1\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Choose SLA\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"auto_number\",\n\"type\" : \"1\",\n\"value\" : \"False\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"max_rows\",\n\"type\" : \"1\",\n\"value\" : \"1\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"allowInserts\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"disabled\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"minheight\",\n\"type\" : \"1\",\n\"value\" : \"250\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}},{\"id\" : 12197,\n\"name\" : \"Label\",\n\"path\" : \"\\\/1\\\/10001\\\/10002\\\/12192\\\/\",\n\"position\" : 2,\n\"type\" : 10,\n\"children\" : [],\n\"attributeValues\" : [{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"sla_description\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hidden\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"fullWidth\",\n\"type\" : \"1\",\n\"value\" : \"true\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}}],\n\"attributeValues\" : [{\"locale\" : \"_system\",\n\"name\" : \"labelWidth\",\n\"type\" : \"1\",\n\"value\" : \"100\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"fieldset_2\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"hidden\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"SLA Details\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"disabled\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"collapsed\",\n\"type\" : \"1\",\n\"value\" : \"false\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}}],\n\"attributeValues\" : [{\"locale\" : \"_system\",\n\"name\" : \"labelWidth\",\n\"type\" : \"1\",\n\"value\" : \"125\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"formType\",\n\"type\" : \"1\",\n\"value\" : \"request\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"_id\",\n\"type\" : \"1\",\n\"value\" : \"application_hosting\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"name\",\n\"type\" : \"1\",\n\"value\" : \"application_hosting\",\n\"id\" : \"null\"},{\"locale\" : \"en_US\",\n\"name\" : \"label\",\n\"type\" : \"1\",\n\"value\" : \"Application Hosting Form\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"labelAlign\",\n\"type\" : \"1\",\n\"value\" : \"right\",\n\"id\" : \"null\"},{\"locale\" : \"_system\",\n\"name\" : \"script\",\n\"type\" : \"2\",\n\"value\" : \"{ \\n\\t\\t   setSLADescription : function() { \\n\\t\\t         slaDescr = \\\"\\\";\\n\\t\\t         selectedRowCount  = ca_fdGetTableSelectedRowCount(\\\"application_hosting\\\",\\\"slalist\\\");; \\n\\t\\t         if(selectedRowCount == 1){\\n\\t\\t          slaDescr = \\\"Server UP Time is: \\\" + ca_fdGetSelectedTableRows(\\\"application_hosting\\\",\\\"slalist\\\")[0].col1;\\n\\t\\t         }\\n\\t\\t         ca_fdSetTextFieldValue(\\\"application_hosting\\\",\\\"sla_description\\\",slaDescr );         \\n\\t\\t       }\\n\\t\\t}\",\n\"id\" : \"null\"}],\n\"tenant\" : {\"id\" : \"ca.com\",\n\"\" : \"tenant\",\n\"name\" : \"ca.com\",\n\"path\" : \"ca.com\\\/\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"parentTenantId\" : \"ca.com\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"type\" : \"SP\"}}]"],
+          "icuser": [{
+            "accountid": "10001",
+            "address_1": "",
+            "address_2": "",
+            "address1": "",
+            "address2": "",
+            "address3": "",
+            "address4": "",
+            "address5": "",
+            "address6": "",
+            "alias": "",
+            "city": "",
+            "comment": "",
+            "common_name": "Administrator, Service Delivery",
+            "country": "",
+            "county": "",
+            "data1": "",
+            "data2": "",
+            "data3": "",
+            "data4": "",
+            "data5": "",
+            "data6": "",
+            "data7": "",
+            "default_domain": "ca.com",
+            "default_role": "spadministrator",
+            "delegate": {
+              "req_delegateID": null
+            },
+            "domainlevels": {
+              "___type": "array",
+              "domainlevel": [{
+                "domain": "ca.com",
+                "level": "0"
+              }]
+            },
+            "domainnames": {
+              "usm_tenant": {
+                "___name": "ca.com",
+                "tenant_id": "ca.com",
+                "tenant_name": "ca.com"
+              }
+            },
+            "domainroles": {
+              "___type": "array",
+              "domainrole": [{
+                "domain": "ca.com",
+                "role": "spadministrator"
+              }]
+            },
+            "email": "",
+            "fax": "",
+            "first_name": "Service Delivery",
+            "given_name": "Service Delivery",
+            "last_name": "Administrator",
+            "location_comment": "",
+            "location_fax": "",
+            "location_name": "",
+            "location_phone": "",
+            "location_uuid": "",
+            "mailing_address1": "",
+            "mailing_address2": "",
+            "mailing_address3": "",
+            "mailing_address4": "",
+            "mailing_address5": "",
+            "mailing_address6": "",
+            "manager": null,
+            "middle_name": "",
+            "mobile": "",
+            "pager": "",
+            "postalCode": "",
+            "primary_phone": "",
+            "request_account": "ca.com:spadmin",
+            "request_account_id": "10001",
+            "secondary_phone": "",
+            "serreqdelegates": {
+              "___type": "array"
+            },
+            "state": "",
+            "status": "0",
+            "SysDefGroups": {
+              "___type": "array"
+            },
+            "telephone": "",
+            "time_zone_code": "GMT+05:30 Asia\/Calcutta",
+            "title": "",
+            "user_id": "spadmin",
+            "UserDefGroups": {
+              "___type": "array",
+              "LITERAL": ["Workflow Admin", "Workflow SuperUser"]
+            },
+            "userMapStatus": "COMPLETE",
+            "uuid": "69B6A51CA92DFF4192F3D3D389EB6B96",
+            "zipcode": ""
+          }],
+          "info": [{
+            "display_form_headers": true,
+            "formids": "10004|10001|10011!",
+            "jsonString": "{\"service\" : {\"id\" : 10004,\n\"bu\" : \"ca.com\",\n\"name\" : \"Application Hosting\",\n\"description\" : \"Set up production environment for application hosting with Bronze\\\/Silver\\\/Gold SLA\",\n\"status\" : 1,\n\"website\" : \"\",\n\"code\" : \"\",\n\"version\" : \"11.0\",\n\"dateAvailable\" : 1132012800000,\n\"dateUnavailable\" : null,\n\"dateCreated\" : 1132012800000,\n\"dateCancelled\" : null,\n\"approval_process\" : 2,\n\"default_on_approval_status\" : 2000,\n\"estimatedCost\" : \"\"},\n\"request\" : {\"id\" : -1,\n\"name\" : \"\",\n\"requestedFor\" : \"\",\n\"requestedBy\" : \"\",\n\"requestedByAccountId\" : \"\",\n\"requestedForAccountId\" : \"\",\n\"description\" : \"\",\n\"priority\" : -1,\n\"status\" : -1,\n\"dateCreated\" : null,\n\"completionDate\" : null,\n\"dateRequired\" : null,\n\"lastModified\" : null,\n\"newName\" : \"\",\n\"newDateRequired\" : null,\n\"newPriority\" : -1,\n\"estimatedCost\" : 0.0},\n\"sog\" : {\"Application Hosting\" : {\"id\" : 10001,\n\"bu\" : \"ca.com\",\n\"name\" : \"Application Hosting\",\n\"description\" : \"Set up production environment for application hosting\",\n\"status\" : 1,\n\"code\" : \"\",\n\"dateAvailable\" : 1132012800000,\n\"dateUnavailable\" : null,\n\"dateCreated\" : 1132012800000,\n\"dateCancelled\" : null,\n\"estimatedCost\" : \"\"}},\n\"user\" : {\"id\" : \"spadmin\",\n\"uuid\" : \"69B6A51CA92DFF4192F3D3D389EB6B96\",\n\"status\" : 0,\n\"firstName\" : \"Service Delivery\",\n\"lastName\" : \"Administrator\",\n\"middleName\" : \"\",\n\"commonName\" : \"Administrator, Service Delivery\",\n\"alias\" : \"\",\n\"title\" : \"\",\n\"data1\" : \"\",\n\"data2\" : \"\",\n\"data3\" : \"\",\n\"data4\" : \"\",\n\"data5\" : \"\",\n\"data6\" : \"\",\n\"groups\" : [\"Workflow Admin\",\"Workflow SuperUser\"],\n\"manager\" : \"\",\n\"delegate\" : \"\",\n\"description\" : \"\",\n\"phone\" : [\"\",\"\"],\n\"mobile\" : \"\",\n\"fax\" : \"\",\n\"pager\" : \"\",\n\"email\" : \"\",\n\"timezone\" : \"GMT+05:30 Asia\\\/Calcutta\",\n\"roles\" : {\"ca.com\" : [\"spadministrator\"]},\n\"localeLanguage\" : \"en\",\n\"localeCountry\" : \"US\",\n\"location\" : {\"uuid\" : \"\",\n\"name\" : \"\",\n\"address\" : [\"\",\"\",\"\",\"\",\"\",\"\"],\n\"city\" : \"\",\n\"state\" : \"\",\n\"county\" : \"\",\n\"postalCode\" : \"\",\n\"country\" : \"\",\n\"phone\" : \"\",\n\"fax\" : \"\",\n\"description\" : \"\"},\n\"defaultDomain\" : \"ca.com\",\n\"defaultRole\" : \"spadministrator\"},\n\"bu\" : {\"id\" : \"ca.com\",\n\"name\" : \"ca.com\",\n\"loginId\" : \"ca.com\",\n\"type\" : \"SP\",\n\"singleAccountMode\" : false,\n\"status\" : 1,\n\"openedDate\" : 1455192004000,\n\"description\" : \"\",\n\"timezone\" : \"GMT+05:30 Asia\\\/Calcutta\",\n\"federalTaxId\" : \"\",\n\"stateTaxId\" : \"\",\n\"taxRegion\" : \"\",\n\"currency\" : \"United States Dollar\",\n\"dateFormat\" : \"M\\\/d\\\/yyyy\",\n\"timeFormat\" : \"HH:mm:ss\",\n\"decimalFormat\" : 0,\n\"parent\" : \"ca.com\",\n\"email\" : \"\",\n\"website\" : \"\",\n\"primaryContact\" : \"null,null\",\n\"data1\" : \"\",\n\"data2\" : \"\",\n\"data3\" : \"\",\n\"data4\" : \"\",\n\"data5\" : \"\",\n\"data6\" : \"\",\n\"location\" : {\"uuid\" : \"\",\n\"name\" : \"\",\n\"address\" : [\"\",\"\",\"\",\"\",\"\",\"\"],\n\"city\" : \"\",\n\"state\" : \"\",\n\"county\" : \"\",\n\"postalCode\" : \"\",\n\"country\" : \"\",\n\"phone\" : \"\",\n\"fax\" : \"\",\n\"description\" : \"\"}},\n\"soe\" : {\"item_id\" : 10007,\n\"service_option_id\" : 6,\n\"item_type\" : 0,\n\"item_text\" : \"Production Application Hosting\",\n\"code\" : \"\",\n\"category\" : 2,\n\"external_id\" : \"\",\n\"track_as_asset\" : 0,\n\"category_class\" : 50,\n\"category_subclass\" : 99,\n\"estimatedCost\" : \"\",\n\"keywords\" : \"\"}}",
+            "result": 1,
+            "scopedVars": {
+              "scope-1": "{\"service\" : {\"id\" : 10004,\n\"bu\" : \"ca.com\",\n\"name\" : \"Application Hosting\",\n\"description\" : \"Set up production environment for application hosting with Bronze\\\/Silver\\\/Gold SLA\",\n\"status\" : 1,\n\"website\" : \"\",\n\"code\" : \"\",\n\"version\" : \"11.0\",\n\"dateAvailable\" : 1132012800000,\n\"dateUnavailable\" : null,\n\"dateCreated\" : 1132012800000,\n\"dateCancelled\" : null,\n\"approval_process\" : 2,\n\"default_on_approval_status\" : 2000,\n\"estimatedCost\" : \"\"},\n\"sog\" : {\"Application Hosting\" : {\"id\" : 10001,\n\"bu\" : \"ca.com\",\n\"name\" : \"Application Hosting\",\n\"description\" : \"Set up production environment for application hosting\",\n\"status\" : 1,\n\"code\" : \"\",\n\"dateAvailable\" : 1132012800000,\n\"dateUnavailable\" : null,\n\"dateCreated\" : 1132012800000,\n\"dateCancelled\" : null,\n\"estimatedCost\" : \"\"}}}"
+            }
+          }],
+          "usm_tenant": [{
+            "___name": "ca.com",
+            "accounts_exist": "1",
+            "alt_phone": "",
+            "ca_tenant_uuid": null,
+            "closed_date": null,
+            "company_uuid": null,
+            "contact_uuid": null,
+            "creation_date": null,
+            "creation_user": null,
+            "currency_name": "United States Dollar",
+            "currency_symbol": "$",
+            "currency_type_code": "USD",
+            "data1": "",
+            "data2": "",
+            "data3": "",
+            "data4": "",
+            "data5": "",
+            "data6": "",
+            "data7": "",
+            "date_format": "M\/d\/yyyy",
+            "decimal_format": 0,
+            "description": "",
+            "domain_type": "SP",
+            "email": "",
+            "fax_number": "",
+            "federal_tax_payer_id": "",
+            "fkey_group": null,
+            "iccurrencyname": "United States Dollar",
+            "iccurrencysymbol": "$",
+            "id": null,
+            "last_update_date": null,
+            "last_update_user": null,
+            "ldap_tenant_group": null,
+            "location_uuid": "",
+            "login_domain": "ca.com",
+            "logo": "FileStore\/themes\/common\/images\/logo\/header_logo.png",
+            "opened_date": {
+              "value": "02/11/2016 17:30:04",
+              "ms": 1455192004000
+            },
+            "organization_uuid": null,
+            "parent": null,
+            "parent_tenant_id": "ca.com",
+            "parent_tenant_name": "ca.com",
+            "path": "ca.com\/",
+            "phone_number": "",
+            "relatedtenant_group": null,
+            "requests_subscriptions_exist": "1",
+            "single_account_mode": 0,
+            "state_tax_payer_id": "",
+            "status": 1,
+            "sub_unit_exist": "1",
+            "subtenant_group": null,
+            "subtenants_ok": null,
+            "supertenant_group": null,
+            "tax_region": "",
+            "tenant": null,
+            "tenant_depth": null,
+            "tenant_id": "ca.com",
+            "tenant_name": "ca.com",
+            "tenant_number": null,
+            "theme": "CA_Technologies_R7",
+            "time_format": "HH:mm:ss",
+            "time_zone_code": "GMT+05:30 Asia\/Calcutta",
+            "tou_id": null,
+            "version_number": null,
+            "website": ""
+          }]
+        },
+        "logged_in_user_role": "spadministrator",
+        "PATH": {
+          "___type": "array",
+          "OFFERING": [{
+            "id": 10001,
+            "name": "ca.com",
+            "parent_id": -1
+          }, {
+            "id": 10002,
+            "name": "Application Services",
+            "parent_id": 10001
+          }, {
+            "id": 10004,
+            "name": "Application Hosting",
+            "parent_id": 10002
+          }]
+        },
+        "result": 1,
+        "SER_REQ_DEL_USER_COUNT": 0,
+        "Ser_Req_Delegation_Warning": "-1",
+        "show_fulfillment_details": true,
+        "SUBSCRIBED_OFFERING": 0,
+        "valid_extensions_as_attachments": "[.gif, .tif, .tiff, .jpg, .jpeg, .png, .bmp, .docx, .xlsx, .pptx, .doc, .xls, .ppt, .zip, .jar, .apk, .rar, .pdf, .txt, .xml, .rtf, .properties, .log, .msg, .html, .avi]"
+      },
+      "usm_offering": {
+        "___name": 10004,
+        "approval_level": 0,
+        "approval_process": 2,
+        "base_offering": -1,
+        "business_hour_id": null,
+        "calendar_id": null,
+        "code": null,
+        "date_available": {
+          "value": "11/15/2005 05:30:00",
+          "ms": 1132012800000
+        },
+        "date_cancelled": null,
+        "date_created": {
+          "value": "11/15/2005 05:30:00",
+          "ms": 1132012800000
+        },
+        "date_last_modified": {
+          "value": "02/11/2016 19:33:43",
+          "ms": 1455199423000
+        },
+        "date_unavailable": null,
+        "default_on_approval_status": 2000,
+        "description": "Set up production environment for application hosting with Bronze\/Silver\/Gold SLA",
+        "domain": "ca.com",
+        "feature_sort_order": 0,
+        "feature_sort_order_type": 0,
+        "folder_display_type": 0,
+        "image_file": "OotbOfferings\/host.svg",
+        "info_link": null,
+        "is_leaf": 1,
+        "mobile_enabled": 0,
+        "notes_id": null,
+        "offering_id": 10004,
+        "offering_name": "Application Hosting",
+        "overview_text": null,
+        "parent_id": 10002,
+        "path": "10001\/10002\/10004\/",
+        "rateplanheaderdisplay": 0,
+        "sd_request_area": null,
+        "selection_type": 2,
+        "sort_order": 0,
+        "sort_order_no": 6,
+        "sort_order_type": 5,
+        "status": 1,
+        "sub_note_control": null,
+        "top_base_offering": -1,
+        "tree_level": 3,
+        "type": 3,
+        "version": "11.0"
+      },
+      "usm_tenant": {
+        "___name": "ca.com",
+        "accounts_exist": "1",
+        "alt_phone": "",
+        "ca_tenant_uuid": null,
+        "closed_date": null,
+        "company_uuid": null,
+        "contact_uuid": null,
+        "creation_date": null,
+        "creation_user": null,
+        "currency_name": "United States Dollar",
+        "currency_symbol": "$",
+        "currency_type_code": "USD",
+        "data1": "",
+        "data2": "",
+        "data3": "",
+        "data4": "",
+        "data5": "",
+        "data6": "",
+        "data7": "",
+        "date_format": "M\/d\/yyyy",
+        "decimal_format": 0,
+        "description": "",
+        "domain_type": "SP",
+        "email": "",
+        "fax_number": "",
+        "federal_tax_payer_id": "",
+        "fkey_group": null,
+        "iccurrencyname": "United States Dollar",
+        "iccurrencysymbol": "$",
+        "id": null,
+        "last_update_date": null,
+        "last_update_user": null,
+        "ldap_tenant_group": null,
+        "location_uuid": "",
+        "login_domain": "ca.com",
+        "logo": "FileStore\/themes\/common\/images\/logo\/header_logo.png",
+        "opened_date": {
+          "value": "02/11/2016 17:30:04",
+          "ms": 1455192004000
+        },
+        "organization_uuid": null,
+        "parent": null,
+        "parent_tenant_id": "ca.com",
+        "parent_tenant_name": "ca.com",
         "path": "ca.com\/",
-        "timeFormat": "HH:mm:ss",
-        "parentTenantId": "ca.com",
-        "dateFormat": "M\/d\/yyyy",
-        "type": "SP"
+        "phone_number": "",
+        "relatedtenant_group": null,
+        "requests_subscriptions_exist": "1",
+        "single_account_mode": 0,
+        "state_tax_payer_id": "",
+        "status": 1,
+        "sub_unit_exist": "1",
+        "subtenant_group": null,
+        "subtenants_ok": null,
+        "supertenant_group": null,
+        "tax_region": "",
+        "tenant": null,
+        "tenant_depth": null,
+        "tenant_id": "ca.com",
+        "tenant_name": "ca.com",
+        "tenant_number": null,
+        "theme": "CA_Technologies_R7",
+        "time_format": "HH:mm:ss",
+        "time_zone_code": "GMT+05:30 Asia\/Calcutta",
+        "tou_id": null,
+        "version_number": null,
+        "website": ""
       }
     },
-    {
-      "id": 14606,
-      "name": "Active",
-      "path": "\/1\/14548\/14604\/14605\/14549\/",
-      "position": 13,
-      "type": 7,
-      "children": [],
-      "attributeValues": [
-        {
-          "locale": "_system",
-          "name": "_id",
-          "type": "1",
-          "value": "chb_1",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "includeinemail",
-          "type": "1",
-          "value": "true",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "value",
-          "type": "1",
-          "value": "active",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "checked",
-          "type": "1",
-          "value": "true",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "disabled",
-          "type": "1",
-          "value": "true",
-          "id": "null"
-        }
-      ]
+    "iccontextname": "usm",
+    "iccurrencypolicy": {
+      "icdisplayleadingzeros": null,
+      "icminscale": null,
+      "icnegativesymbol": null,
+      "icpolicyid": "sppolicy_cur",
+      "icroundingmode": "4",
+      "icscale": "2",
+      "ictype": "0"
     },
-    {
-      "id": 14552,
-      "name": "Release name",
-      "path": "\/1\/14548\/14604\/14605\/14549\/",
-      "position": 3,
-      "type": 9,
-      "children": [
-        {
-          "id": 14553,
-          "name": "Phoenix",
-          "path": "\/1\/14548\/14604\/14605\/14549\/14552\/",
-          "position": 1,
-          "type": 11,
-          "children": [],
-          "attributeValues": [
-            {
-              "locale": "_system",
-              "name": "value",
-              "type": "1",
-              "value": "value",
-              "id": "null"
-            }
-          ],
-          "tenant": {
-            "id": "ca.com",
-            "": "tenant",
-            "name": "ca.com",
-            "path": "ca.com\/",
-            "timeFormat": "HH:mm:ss",
-            "parentTenantId": "ca.com",
-            "dateFormat": "M\/d\/yyyy",
-            "type": "SP"
+    "icguinode": {
+      "accounting_installed": true,
+      "catalog_installed": true,
+      "icaccessdepth": "1",
+      "iccontent": ["MtdName=getWebStoreOffering", "ClsName=com.ca.usm.billing.ContentEngine.CRequest", "level=instance", "type=R"],
+      "iccontenttype": "5",
+      "icguinodeid": "catalogitemdetails",
+      "icguinodeinfo": ["catalogbrowse", "catalogcheckout", "catalogrequestgetforms", "webstoreaddtocart&sh=DzXiby16eQezen4MukGlBeDiQn8%3D", "webstoreaddtocartcheckout&sh=DzXiby16eQezen4MukGlBeDiQn8%3D", "catalogpendingitems", "catalogpendingaction", "requestprofile", "cataloggetchildren", "catalogsearch", "catalogrequesteditems", "getstatistics", "requestsaveconfirmedit&sh=DzXiby16eQezen4MukGlBeDiQn8%3D", "requestedit&sh=DzXiby16eQezen4MukGlBeDiQn8%3D", "requestgetdynamicreport", "slashowpackage", "billingaccountsubscriptionviewarp", "requestgetdatavariables", "popupsearchauframe", "catalogitemdetails", "catalogcheckoutsave&sh=DzXiby16eQezen4MukGlBeDiQn8%3D", "contractdetails", "showslaperformance", "submitservicerequest&sh=DzXiby16eQezen4MukGlBeDiQn8%3D"],
+      "ichelpurl": null,
+      "icissecured": "0",
+      "icissystem": null,
+      "ickeywords": null,
+      "iclabel": null,
+      "icneedlogin": null,
+      "icon1": null,
+      "iconused": null,
+      "icseparatewindow": "0",
+      "ictitle": null,
+      "ictype": null,
+      "icxslpresentation": null,
+      "icxsltransformation": "request\/catalogitemdetails.xsl",
+      "wf_installed": false
+    },
+    "iclocalization": {
+      "action": "Action",
+      "actions": "Actions",
+      "add": "Add",
+      "add_attachments_for_ie_browser": "The Internet Explorer settings prohibit attachments for CA Service Catalog. To allow these attachments, follow these steps:\\n\\n 1.  Click Tools, Internet Options, and click the Security tab.\\n 2. Select Local Intranet and click Custom Level.\\n 3.  For the \\\"Initialize and script ActiveX controls not marked as safe for scripting\\\" setting, click Enable, and click OK. You return to the Security tab.\\n 4.  Select Trusted Sites and click Sites.\\n 5.  Add the URL for accessing CA Service Catalog (for example, http:\/\/hostname:8080 or https:\/\/hostname:8080 ) to the trusted sites, and click Close. Close the Internet Options dialog.\\n 6. Log out of CA Service Catalog, and restart Internet Explorer.\\n 7.  Log in to CA Service Catalog again, and verify that you can add attachments.",
+      "add_to_cart": "Add to Cart",
+      "add_to_cart_and_checkout": "Check Out",
+      "add_to_request": "Add to Request",
+      "add.note": "Add Note",
+      "address_change_confirm": "Do you want to change the shipping address as well?",
+      "amount2": "Amount",
+      "approval_required": "Approval Required",
+      "attach_file": "Attach File",
+      "attach_success": "Attachments added successfully.",
+      "attachment": "Attachments",
+      "attachments": "Attachments",
+      "back_to_browsing": "Back to Browsing",
+      "backtotop": "Back to Top",
+      "cancel_edit_message": "Click here to Cancel and return",
+      "cart": "Cart",
+      "catalog": "Catalog",
+      "catalog_item": "Service",
+      "change": "Change",
+      "click_go_back": "Click to go back",
+      "click_to_choose_user_or_account": "Click to Choose User or Account",
+      "click_to_hide": "Click to Hide",
+      "click_to_show": "Click to Show",
+      "close": "Close",
+      "collapse_all": "Collapse All",
+      "complete_request": "Check Out Request",
+      "confirm_delete": "Are you sure you want to delete this attachment?",
+      "contextuser_message": "Using Catalog of:",
+      "contract_details_only_ie": "You must use Microsoft Internet Explorer to access this contract or any other component of CA Business Service Insight.",
+      "date": "Date",
+      "delete": "Delete:",
+      "delete_all_items_confirm": "Are you sure you want to delete all the selected items for this service?",
+      "delete_item": "Delete Item",
+      "denotes_field_is_required": " = Required",
+      "denotes_more_details_in_checkout_page": " = More Form Details in Cart page",
+      "description": "Description",
+      "e_codes": {
+        "e_code": ["An unexpected error has occurred.", "Access Denied.", "This Service has either been deleted, cancelled or is no longer available. Please contact the administrator for more information."]
+      },
+      "edit_message": "Browse Catalog and add items to Request:",
+      "enter_valid_string": "Please enter a valid search string",
+      "entire_catalog": "Entire Catalog",
+      "error": "Error",
+      "error_contract_details": "Error in getting contract details.",
+      "expand_all": "Expand All",
+      "featured_services": "Related",
+      "file_name": "Display Name",
+      "file_too_large": "This file cannot be uploaded due to its large size.",
+      "form_error": "An unexpected error occurred while retrieving form(s) associated with this service. Please contact the administrator.",
+      "go": "Go",
+      "hide_fulfillment_details": "Hide fulfillment details",
+      "high_importance_level": "High Importance Level",
+      "home": "Home",
+      "invalid_attachment": "Invalid file name, does not have valid extension.\\n\\nOnly {0} extensions are allowed.",
+      "invalid_request_name": "Invalid request name. Creating the request with service name {0}",
+      "is_subscribed_service": "This service has already been requested and cannot be requested more than once.",
+      "item": "Item",
+      "item_added_to_cart": "Item(s) have been successfully added to your cart. You may now continue browsing or proceed to your Cart in order to complete this request.",
+      "item_details": "Item Details",
+      "js_custom_onsubmit_return_error": "Unknown value returned by custom function, please return a number >= 0 :",
+      "learn_more": "Learn More",
+      "length_limit_reached": "The maximum length of the name field (128 characters) has been exceeded, please shorten the name before proceeding.",
+      "locale": "en_US",
+      "lookup": "Lookup Parameters",
+      "max_options_to_display": "-1",
+      "more_info": "More Info...",
+      "more_select_menu_options": "Select to see more values...",
+      "name_too_long": "The filename cannot be more than 100 characters long.\\n\\nPlease enter a new file name.",
+      "new_form_validation_message": "There is validation error in this form. Please verify the form",
+      "newest_items": "Newest Items",
+      "next": "Next",
+      "no_access_to_make_requests": "You do not have access to make requests.",
+      "no_attachments": "There are no attachments for this request.",
+      "no_items": "No items.",
+      "no_items_selected": "No items have been selected.",
+      "no_notes": "There are no notes for this request.",
+      "no_selected_items": "No selected Items.",
+      "no.file.attachments": "No files attached.",
+      "no.notes": "No notes added.",
+      "note": "Note",
+      "note_id": "Note ID:",
+      "note_type": "Note Type:",
+      "notes": "Notes",
+      "offering": "Service",
+      "ok": "OK",
+      "one_offering_per_cart_only": "Only one service can be requested at a time. Please check the cart\/request.",
+      "open_requests": "Open Requests",
+      "overview": "Overview",
+      "pending_action": "Pending My Action",
+      "please_enter_required_name": "Please provide the request name.",
+      "please_wait": "Please Wait...",
+      "priority_levels": {
+        "priority_1": "High",
+        "priority_2": "Medium-High",
+        "priority_3": "Medium",
+        "priority_4": "Medium-Low",
+        "priority_5": "Low"
+      },
+      "proceed": "Proceed to Check Out",
+      "product_details": "Product Details",
+      "properties": {
+        "all": "All",
+        "amount": "Amount",
+        "keyword": "Keyword",
+        "offering_desc": "Service Description",
+        "offering_name": "Service Name",
+        "rate_item_name": "Service Option Element Name",
+        "rate_plan_name": "Service Option Group Name"
+      },
+      "renderError": "An unexpected error occurred while rendering forms. Please refresh the page and try again or contact the administrator.",
+      "request": "Request",
+      "request_name": "Request:",
+      "requested_services": "My Selections",
+      "required_field_message": "Not all required fields have values.",
+      "requires_additional_information": "requires additional information",
+      "return_to_home": "Return to Home",
+      "search_in": "Search:",
+      "search_results": "Search Results",
+      "see_fulfillment_details": "See fulfillment details",
+      "service_can_not_be_requested": "This service can not be requested.",
+      "show_hide": "Show\/Hide",
+      "show_sla_performance": "View Service Health",
+      "sort_by": "Sort by",
+      "statistics": "Statistics",
+      "submit_error": "Error occurred while submitting this request. Please contact the administrator.",
+      "submit_request": "Submit",
+      "support": "Support",
+      "timestamp": "Timestamp:",
+      "total": "Total:",
+      "unknown": "Not Categorized",
+      "upload_error0": "Empty",
+      "upload_error1": "Error uploading file(s): The file you are trying to upload exceeds the size limit set on the server.",
+      "upload_error2": "Error uploading file(s): An invalid file was specified.",
+      "upload_error3": "Error uploading file(s): Access denied or a document with the same name already exists.",
+      "upload_error4": "Error uploading file(s): Invalid file name, does not have valid extension.",
+      "upload_error5": "Error uploading file(s): The file you are trying to upload contains invalid metadata.",
+      "userid": "User ID",
+      "validation_error": "There is a validation error on the page, please fix it before continuing",
+      "view_request_profile": "View Request Details",
+      "warning_valid_desired_date": "Warning: the required date is earlier than the created date. Do you wish to continue?",
+      "your_shopping_cart": "Your Shopping Cart"
+    },
+    "iclogout": "wpf?Node=icguinode.login",
+    "icproxyurl": "http:\/\/gopas01-ews1506:8080\/usm",
+    "icquantitypolicy": {
+      "icdisplayleadingzeros": null,
+      "icminscale": "0",
+      "icnegativesymbol": null,
+      "icpolicyid": "sppolicy_qty",
+      "icroundingmode": "4",
+      "icscale": "2",
+      "ictype": "1"
+    },
+    "icservletname": "wpf",
+    "icsysteminstall": {
+      "iceemapp": "Service Catalog",
+      "ichostname": "gopas01-ews1506",
+      "icmajorversion": "14",
+      "icminorversion": "1",
+      "icportno": "8080",
+      "icprotocol": "http",
+      "icsysteminstallid": "gopas01-ews1506"
+    },
+    "ictenant": {
+      "iccurrencycode": "USD",
+      "icdateformat": "M\/d\/yyyy",
+      "icdecimalformat": "0",
+      "icdomaintype": "SP",
+      "iclogo": "FileStore\/themes\/common\/images\/logo\/header_logo.png",
+      "icname": "United States Dollar",
+      "icparenttenantid": "{id=null, tenant_number=null, phone_number=, fax_number=, alt_phone=, version_number=null, creation_user=null, creation_date=null, last_update_user=null, last_update_date=null, tenant=null, ldap_tenant_group=null, parent=null, fkey_group=null, subtenants_ok=null, subtenant_group=null, supertenant_group=null, relatedtenant_group=null, tenant_depth=null, tou_id=null, tenant_id=ca.com, parent_tenant_id=ca.com, tenant_name=ca.com, domain_type=SP, status=1, login_domain=ca.com, opened_date=2\/11\/2016 12:0:4, closed_date=null, email=, website=, description=, federal_tax_payer_id=, state_tax_payer_id=, tax_region=, date_format=M\/d\/yyyy, time_format=HH:mm:ss, decimal_format=0, single_account_mode=0, data1=, data2=, data3=, data4=, data5=, data6=, data7=, currency_type_code=USD, time_zone_code=GMT+05:30 Asia\/Calcutta, location_uuid=, company_uuid=null, organization_uuid=null, path=ca.com\/, contact_uuid=null, ca_tenant_uuid=null, logo=FileStore\/themes\/common\/images\/logo\/header_logo.png, iccurrencysymbol=$, iccurrencyname=United States Dollar, sub_unit_exist=1, requests_subscriptions_exist=1, accounts_exist=1, parent_tenant_name=ca.com, currency_name=United States Dollar, currency_symbol=$, theme=CA_Technologies_R7}",
+      "icsingleaccountmode": false,
+      "icsymbol": "$",
+      "ictenantid": "ca.com",
+      "ictenantname": "ca.com",
+      "ictheme": "CA_Technologies_R7",
+      "ictimeformat": "HH:mm:ss",
+      "ictimezonecode": "GMT+05:30 Asia\/Calcutta"
+    },
+    "icuser": {
+      "catalogConextUser": "spadmin",
+      "catalogConextUser_cn": "Administrator, Service Delivery",
+      "cn": "Administrator, Service Delivery",
+      "domainroles": {
+        "COLLECTION": {
+          "domainrole": {
+            "domain": "ca.com",
+            "domainname": "ca.com",
+            "role": "spadministrator"
           }
-        },
-        {
-          "id": 14554,
-          "name": "Hampi",
-          "path": "\/1\/14548\/14604\/14605\/14549\/14552\/",
-          "position": 2,
-          "type": 11,
-          "children": [],
-          "attributeValues": [
-            {
-              "locale": "_system",
-              "name": "value",
-              "type": "1",
-              "value": "value",
-              "id": "null"
-            }
-          ],
-          "tenant": {
-            "id": "ca.com",
-            "": "tenant",
-            "name": "ca.com",
-            "path": "ca.com\/",
-            "timeFormat": "HH:mm:ss",
-            "parentTenantId": "ca.com",
-            "dateFormat": "M\/d\/yyyy",
-            "type": "SP"
-          }
         }
-      ],
-      "attributeValues": [
-        {
-          "locale": "_system",
-          "name": "_id",
-          "type": "1",
-          "value": "sel_1",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "required",
-          "type": "1",
-          "value": "false",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "multiple",
-          "type": "1",
-          "value": "false",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "hideLabel",
-          "type": "1",
-          "value": "false",
-          "id": "null"
-        }
-      ]
-
-    },
-    {
-      "id": 14603,
-      "name": "Rating",
-      "path": "\/1\/14548\/14604\/14605\/14549\/",
-      "position": 12,
-      "type": 20,
-      "children": [],
-      "attributeValues": [
-        {
-          "locale": "_system",
-          "name": "_id",
-          "type": "1",
-          "value": "spinner_1",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "includeinemail",
-          "type": "1",
-          "value": "true",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "required",
-          "type": "1",
-          "value": "false",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "hideLabel",
-          "type": "1",
-          "value": "false",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "value",
-          "type": "1",
-          "value": "1",
-          "id": "null"
-        }
-      ]
-    },
-    {
-      "id": 14602,
-      "name": "Progress Bar",
-      "path": "\/1\/14548\/14604\/14605\/14549\/",
-      "position": 11,
-      "type": 23,
-      "children": [],
-      "attributeValues": [
-        {
-          "locale": "_system",
-          "name": "minvalue",
-          "type": "1",
-          "value": "1",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "intgain",
-          "type": "1",
-          "value": "1",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "_id",
-          "type": "1",
-          "value": "slider_1",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "includeinemail",
-          "type": "1",
-          "value": "true",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "hidden",
-          "type": "1",
-          "value": "false",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "maxvalue",
-          "type": "1",
-          "value": "100",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "disabled",
-          "type": "1",
-          "value": "false",
-          "id": "null"
-        },
-        {
-          "locale": "_system",
-          "name": "hideLabel",
-          "type": "1",
-          "value": "false",
-          "id": "null"
-        }
-      ]
+      },
+      "fax": null,
+      "givenName": "Service Delivery",
+      "iccountry": null,
+      "icdomainname": "ca.com",
+      "icgroupname": "spadministrator",
+      "iclocale": "icusen",
+      "ictimezone": "GMT+05:30 Asia\/Calcutta",
+      "icuserid": "spadmin",
+      "icvariables": {
+        "icvariable": [{
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "generic"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "dashitempath"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "administrator_ROLE"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "enduser_ROLE"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "sysadmin_ROLE"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/..\/common\/",
+          "icvariableid": "buttonpath"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "metering"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/..\/common\/",
+          "icvariableid": "sortimgpath"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/BC:#8da8ba-WC:#ffe594-TC:#ffffff-MC:#ccffca-SC:#a8f2e8-BGC:#7690a6-FSIZE:8pt;-WFSIZE:8pt;-FTYPE:Verdana;-FWEIGHT:bold;-SB:1",
+          "icvariableid": "menucolors"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/css\/portal.widget.css",
+          "icvariableid": "portal_default"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "invoicelogo"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/css\/main.css",
+          "icvariableid": "style"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "role"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "sla"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/..\/common\/css\/elrte_inner.css",
+          "icvariableid": "elrte_inner"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/..\/common\/gxt\/css\/requestList.css",
+          "icvariableid": "gxt_request"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "stadministrator_ROLE"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/common\/images\/logo\/header_logo.png",
+          "icvariableid": "logo.gif"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "reports"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/css\/request.css",
+          "icvariableid": "ca_request"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/..\/common\/gxt\/css\/gxt-all.css",
+          "icvariableid": "gxt_default"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "lhpbackground2"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/..\/common\/gxt\/css\/common.gwt.css",
+          "icvariableid": "gxt_common"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "servicemanager_ROLE"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "enduserR_ROLE"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/..\/common\/css\/elrte.css",
+          "icvariableid": "elrte"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "provision"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "product"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "billing"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "administratorR_ROLE"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "thumbnail"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "rhpbackground"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/..\/common\/",
+          "icvariableid": "menubuttonpath"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "spadministratorR_ROLE"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/..\/common\/css\/jquery-ui.css",
+          "icvariableid": "jquery_ui"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "stadministratorR_ROLE"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": "FileStore\/themes\/CA_Technologies_R7\/gxt\/css\/gxt-all.css",
+          "icvariableid": "gxt_theme"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "lhpbackground"
+        }, {
+          "ictype": "PASS2_PATH",
+          "icvalue": null,
+          "icvariableid": "spadministrator_ROLE"
+        }]
+      },
+      "l": null,
+      "localeCountry": "US",
+      "localeLanguage": "en",
+      "mail": null,
+      "postalAddress": "[Ljava.lang.String;@5e06a06f",
+      "postalCode": null,
+      "securityhandle": "DzXiby16eQezen4MukGlBeDiQn8=",
+      "securityparameter": "&sh=DzXiby16eQezen4MukGlBeDiQn8%3D",
+      "sn": "Administrator",
+      "st": null,
+      "telephoneNumber": null,
+      "uuid": "69B6A51CA92DFF4192F3D3D389EB6B96"
     }
-
-      ]
+  }
 }
-

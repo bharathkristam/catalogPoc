@@ -14,7 +14,7 @@
 
         function init() {
             formViewerService.getFormData().then(function(response){
-                $scope.parentJson = response.data;
+                $scope.parentJson = response.data.root.COLLECTION.INFO.form_data.formsJSON;
             },
             function(errorResponse){
 
