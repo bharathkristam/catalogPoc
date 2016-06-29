@@ -6,9 +6,9 @@
 
     angular.module('components').directive('caSpinner', caSpinnerDirective);
 
-    caSpinnerDirective.$inject = ['catalog.formRenderHelper'];
+    caSpinnerDirective.$inject = ['catalog.formRenderHelper', '$compile'];
 
-    function caSpinnerDirective (formRenderHelper) {
+    function caSpinnerDirective (formRenderHelper, $compile) {
         return {
             restrict: 'E',
             templateUrl : 'Components/spinner/Spinner.html',
@@ -25,10 +25,15 @@
                 var attrList = data["attributeValues"];
                 if(attrList && attrList.length > 0) {
                     for(var i in attrList){
-                        $(spinner).attr(formRenderHelper.getAttributeByAlias(attrList[i]["name"]), attrList[i]["value"]);
+                        var attribute = formRenderHelper.getProcessedAttribute(attrList[i]);
+
+                        if(attribute) {
+                            $(spinner).attr(attrList[i]["name"], attrList[i]["value"]);
+                        }
                     }
                 }
-
+                // let the attribute directive be executed
+                $compile(element.contents())(scope);
             }
         }
 
