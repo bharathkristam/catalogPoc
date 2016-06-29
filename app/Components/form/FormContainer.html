@@ -6,7 +6,7 @@
 
           <form data="parentJson" role="form">
 
-               <div ng-repeat="control in parentJson.children" ng-switch on="control.type">
+               <div ng-repeat="control in parentJson.children | orderBy:'position'" ng-switch on="control.type">
                     <div class="form-inline">
                          <ca-textfield data="control" parentFormId="parentJson.id" ng-switch-when="5"></ca-textfield>
                     </div>
@@ -31,7 +31,9 @@
                     <div>
                          <ca-radiobutton data="control" parentContainerId="parentJson.id" group="radio_{{parentJson.id}}" ng-switch-when="13"> </ca-radiobutton>
                     </div>
-
+                    <div>
+                          <ca-duallist data="control" parentFormId="parentJson.id" ng-switch-when="19"></ca-duallist>
+                    </div>
                </div>
 
           </form>

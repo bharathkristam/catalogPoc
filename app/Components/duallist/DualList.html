@@ -1,0 +1,68 @@
+<div role="presentation" class="x-form-element x-form-el-x-auto-43" id="x-form-el-x-auto-1" style="padding-left:105px">
+   <div id="x-auto-2" class=" x-component x-form-group " style="overflow: visible; width: 596px; height: 125px;">
+      <table role="presentation" cellpadding="0" cellspacing="0">
+         <tbody role="presentation">
+            <tr role="presentation">
+               <td role="presentation" align="LEFT" valign="TOP" style="position: static;" >
+                   <label for="x-left-scope-{{id}}">{{duallistOption.leftContainerLabel}}</label>
+                  <div class=" x-form-list x-form-field x-component x-unselectable " id="x-auto-3" style="border-width: 0px; width: 281px; height: 123px;" unselectable="on">
+                     <div hidefocus="true" id="x-auto-4" class=" x-view x-combo-list x-component x-unselectable" style="border-width: 0px; width: 281px; height: 123px;" unselectable="on">
+                         <select id="x-left-scope-{{id}}" tabindex="0" role="listbox" name="x-left-scope"  class=" no-scroll x-left-scope" style="width: 281px; height: 123px;"
+                         ng-model="leftscope.selected" 
+                         ng-options="ls.id as ls.name for ls in leftscope.values"
+                         ng-focus="onFocusHandler(leftscope)"
+                         multiple>
+                         </select>
+                     </div>
+                  </div>
+                <br>
+                <br/>
+               </td>
+               <td role="presentation" align="LEFT" valign="TOP" style="position: static;">
+                  <label>&nbsp;</label>
+                  <div id="x-auto-5" class=" x-component" style="overflow: visible; margin: 7px;">
+                     <table role="presentation" cellspacing="0">
+                        <tbody>
+                           <tr role="presentation">
+                              <td class="x-table-layout-cell" role="presentation" align="CENTER" valign="TOP">
+                                 <button tabindex="0" role="button" class=" x-icon-btn x-nodrag arrow-double-right x-component transparent-button" aria-describedby="x-auto-6" id="x-auto-6" style="height: 18px;" ng-click="moveAllToRight()" title="Add all"></button>
+                              </td>
+                           </tr>
+                           <tr role="presentation">
+                              <td class="x-table-layout-cell" role="presentation" align="CENTER" valign="TOP">
+                                 <button tabindex="0" role="button" class=" x-icon-btn x-nodrag arrow-right x-component  transparent-button" aria-describedby="x-auto-7" id="x-auto-7" style="height: 18px;" ng-click="moveRight()" title="Add selected"></button>
+                              </td>
+                           </tr>
+                           <tr role="presentation">
+                              <td class="x-table-layout-cell" role="presentation" align="CENTER" valign="TOP">
+                                 <button tabindex="0" role="button" class=" x-icon-btn x-nodrag arrow-left x-component transparent-button " aria-describedby="x-auto-8" id="x-auto-8" style="height: 18px;" ng-click="moveLeft()" title="Remove selected"></button>
+                              </td>
+                           </tr>
+                           <tr role="presentation">
+                              <td class="x-table-layout-cell" role="presentation" align="CENTER" valign="TOP">
+                                 <button tabindex="0" role="button" class=" x-icon-btn x-nodrag arrow-double-left x-component transparent-button" aria-describedby="x-auto-9" id="x-auto-9" style="height: 18px;" ng-click="moveAllToLeft()" title="Remove all"></button>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </td>
+               <td role="presentation" align="LEFT" valign="TOP" style="position: static;">
+                  <label for="x-right-scope-{{id}}">{{duallistOption.rightContainerLabel}}</label>
+                  <div class=" x-form-list x-form-field x-component x-unselectable " id="x-auto-10" style="width: 281px; height: 123px;" unselectable="on">
+                     <div hidefocus="true" id="x-auto-11" class=" x-view x-combo-list x-component x-unselectable" role="listbox" style="border-width: 0px; width: 281px; height: 123px;" _id="userid-dual-list-view" unselectable="on">
+                        <select role="listbox" id="x-right-scope-{{id}}" name="x-right-scope"  class=" no-scroll x-right-scope" style="width: 281px; height: 123px;"
+                         ng-model="rightscope.selected" 
+                         ng-options="rs.id as rs.name for rs in rightscope.values"
+                         ng-focus="onFocusHandler(rightscope)" 
+                         multiple>
+                         </select>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>
+</br>
