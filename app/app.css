@@ -36,3 +36,68 @@
   font-weight: bold;
   color: red;
 }
+/*Dual List CSS*/
+
+.v-center {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.ngduallist .left-container .left-sub-container {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #e5e5e5;
+}
+
+.ngduallist .right-container .right-sub-container {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #e5e5e5;
+}
+
+.ngduallist .input-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.ngduallist .input-group .input-group-addon {
+  width: 10px;
+}
+
+.ngduallist label {
+  display: block;
+  color: #578ebe;
+  text-transform: uppercase;
+}
+
+.ngduallist .info {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+.active {
+  background-color: #578ebe;
+  color: #fff;
+}
+
+.unselectable {
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+}
+
+.transparent-button {
+  border : none;
+  background-color : transparent;
+}
+
+.no-scroll::-webkit-scrollbar {display:none;}
+.no-scroll::-moz-scrollbar {display:none;}
+.no-scroll::-o-scrollbar {display:none;}
+.no-scroll::-google-ms-scrollbar {display:none;}
+.no-scroll::-khtml-scrollbar {display:none;}
