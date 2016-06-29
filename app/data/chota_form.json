@@ -434,6 +434,245 @@
           "id": "null"
         }
       ]
+    },
+    {
+      "id": 14565,
+      "name": "Users List",
+      "path": "\/1\/14548\/14604\/14605\/14549\/",
+      "position": 3,
+      "type": 19,
+      "children": [],
+      "attributeValues": [
+        {
+          "locale": "_system",
+          "name": "reportobjvars",
+          "type": "1",
+          "value": "$({'userid':'%'})",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "orderable",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "_id",
+          "type": "1",
+          "value": "userid",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "includeinemail",
+          "type": "1",
+          "value": "true",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "hidden",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "required",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "disabled",
+          "type": "1",
+          "value": "false",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "reportobjid",
+          "type": "1",
+          "value": "catalog__content_contacts_list",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "hideLabel",
+          "type": "1",
+          "value": "true",
+          "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "LeftLabel",
+          "type": "1",
+          "value": "Users",
+          "id": "LeftLabel"
+        },
+        {
+          "locale": "_system",
+          "name": "RightLabel",
+          "type": "1",
+          "value": "Authorized Users",
+          "id": "RightLabel"
+        }
+      ],
+      "tenant": {
+        "id": "ca.com",
+        "": "tenant",
+        "name": "ca.com",
+        "path": "ca.com\/",
+        "timeFormat": "HH:mm:ss",
+        "parentTenantId": "ca.com",
+        "dateFormat": "M\/d\/yyyy",
+        "type": "SP"
+      }
+    },
+    {
+      "id":14662,
+      "name":"Static Dual List",
+      "path":"\/1\/14548\/14604\/14605\/14549\/",
+      "position":4,
+      "type":19,
+      "children":[
+        {
+          "id":14663,
+          "name":"Rajesh",
+          "path":"\/1\/14548\/14604\/14605\/14549\/14662\/",
+          "position":1,
+          "type":11,
+          "children":[
+
+          ],
+          "attributeValues":[
+            {
+              "locale":"_system",
+              "name":"value",
+              "type":"1",
+              "value":"0",
+              "id":"null"
+            }
+          ],
+          "tenant":{
+            "id":"ca.com",
+            "":"tenant",
+            "name":"ca.com",
+            "path":"ca.com\/",
+            "timeFormat":"HH:mm:ss",
+            "parentTenantId":"ca.com",
+            "dateFormat":"M\/d\/yyyy",
+            "type":"SP"
+          }
+        },
+        {
+          "id":14664,
+          "name":"Haritha",
+          "path":"\/1\/14548\/14604\/14605\/14549\/14662\/",
+          "position":2,
+          "type":11,
+          "children":[
+
+          ],
+          "attributeValues":[
+            {
+              "locale":"_system",
+              "name":"value",
+              "type":"1",
+              "value":"1",
+              "id":"null"
+            }
+          ],
+          "tenant":{
+            "id":"ca.com",
+            "":"tenant",
+            "name":"ca.com",
+            "path":"ca.com\/",
+            "timeFormat":"HH:mm:ss",
+            "parentTenantId":"ca.com",
+            "dateFormat":"M\/d\/yyyy",
+            "type":"SP"
+          }
+        }
+      ],
+      "attributeValues":[
+        {
+          "locale":"_system",
+          "name":"orderable",
+          "type":"1",
+          "value":"false",
+          "id":"null"
+        },
+        {
+          "locale":"_system",
+          "name":"_id",
+          "type":"1",
+          "value":"duallist_2",
+          "id":"null"
+        },
+        {
+          "locale":"_system",
+          "name":"includeinemail",
+          "type":"1",
+          "value":"true",
+          "id":"null"
+        },
+        {
+          "locale":"_system",
+          "name":"hidden",
+          "type":"1",
+          "value":"false",
+          "id":"null"
+        },
+        {
+          "locale":"_system",
+          "name":"required",
+          "type":"1",
+          "value":"false",
+          "id":"null"
+        },
+        {
+          "locale":"_system",
+          "name":"disabled",
+          "type":"1",
+          "value":"false",
+          "id":"null"
+        },
+        {
+          "locale":"_system",
+          "name":"hideLabel",
+          "type":"1",
+          "value":"false",
+          "id":"null"
+        },
+        {
+          "locale": "_system",
+          "name": "LeftLabel",
+          "type": "1",
+          "value": "Static Users",
+          "id": "LeftLabel"
+        },
+        {
+          "locale": "_system",
+          "name": "RightLabel",
+          "type": "1",
+          "value": "Static Authorized Users",
+          "id": "RightLabel"
+        }
+      ],
+      "tenant":{
+        "id":"ca.com",
+        "":"tenant",
+        "name":"ca.com",
+        "path":"ca.com\/",
+        "timeFormat":"HH:mm:ss",
+        "parentTenantId":"ca.com",
+        "dateFormat":"M\/d\/yyyy",
+        "type":"SP"
+      }
     }
 
       ]
