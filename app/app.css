@@ -30,9 +30,9 @@
 }
 
 .requiredField {
-  margin-right : 15px;
+  margin-right : 5px;
   vertical-align: middle;
   line-height : 5px;
   font-weight: bold;
-  font-color: red;
+  color: red;
 }

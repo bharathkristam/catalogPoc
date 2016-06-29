@@ -33,6 +33,13 @@
           "type": "1",
           "value": "Hint: User Name",
           "id": "null"
+        },
+        {
+          "locale": "_system",
+          "name": "required",
+          "type": "1",
+          "value": "true",
+          "id": "null"
         }
       ]
     },
