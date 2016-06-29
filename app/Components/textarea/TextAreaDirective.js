@@ -3,9 +3,9 @@
 
     angular.module('components').directive('caTextarea', caTextAreaDirective);
 
-    caTextAreaDirective.$inject = ['catalog.formRenderHelper'];
+    caTextAreaDirective.$inject = ['catalog.formRenderHelper', '$compile'];
 
-    function caTextAreaDirective (formRenderHelper) {
+    function caTextAreaDirective (formRenderHelper, $compile) {
         return {
             restrict: 'E',
             templateUrl : 'Components/textarea/TextArea.html',
@@ -22,10 +22,15 @@
                 var attrList = data["attributeValues"];
                 if(attrList && attrList.length > 0) {
                     for(var i in attrList){
-                        $(textArea).attr(attrList[i]["name"], attrList[i]["value"]);
+                        var attribute = formRenderHelper.getProcessedAttribute(attrList[i]);
+
+                        if(attribute) {
+                            $(textArea).attr(attrList[i]["name"], attrList[i]["value"]);
+                        }
                     }
                 }
-
+                // let the attribute directive be executed
+                $compile(element.contents())(scope);
             }
         }
 

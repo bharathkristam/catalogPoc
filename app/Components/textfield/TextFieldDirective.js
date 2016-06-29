@@ -27,7 +27,7 @@
                 if(attrList && attrList.length > 0) {
                     for(var i in attrList){
                             var attribute = formRenderHelper.getProcessedAttribute(attrList[i]);
-                        debugger;
+
                         if(attribute){
 
                             if(attribute.name == 'required'){
