@@ -6,9 +6,9 @@
 
     angular.module('components').directive('caRadiogroup', caRadioGroupDirective);
 
-    caRadioGroupDirective.$inject = ['catalog.formRenderHelper'];
+    caRadioGroupDirective.$inject = ['catalog.formRenderHelper', '$compile'];
 
-    function caRadioGroupDirective (formRenderHelper) {
+    function caRadioGroupDirective (formRenderHelper, $compile) {
         return {
             restrict: 'E',
             templateUrl : 'Components/radiobutton/RadioGroup.html',
@@ -41,7 +41,8 @@
                         radioBox.attr(formRenderHelper.getAttributeByAlias(attrList[i]["name"]), attrList[i]["value"]);
                     }
                 }
-
+                // let the attribute directive be executed
+                $compile(element.contents())(scope);
             }
         }
 
