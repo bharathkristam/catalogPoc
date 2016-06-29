@@ -28,3 +28,11 @@
   content: "";
   padding: 0;
 }
+
+.requiredField {
+  margin-right : 15px;
+  vertical-align: middle;
+  line-height : 5px;
+  font-weight: bold;
+  font-color: red;
+}

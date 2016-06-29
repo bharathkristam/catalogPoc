@@ -1,2 +1,12 @@
-<label role="presentation"  for="{{parentFormId}}+_textfield" ng-bind="textFieldLabel"></label>&nbsp;:
-<input class="form-control" id="{{parentFormId}}+_textfield" type="text" role="textbox">
+<span ng-if="requiredField">
+    <span class="requiredField" role="presentation" aria-label="RequiredField">*</span>
+</span>
+
+<span ng-if="!hideLabel">
+   <label role="presentation"  for="{{data.id}}+_textfield" ng-bind="textFieldLabel"></label>&nbsp;:
+</span>
+
+<input class="form-control" id="{{data.id}}+_textfield" type="{{fieldType}}" role="textbox">
+
+
+
