@@ -1,2 +1,3 @@
-<label for="{{parentFormId}}+_textarea" ng-bind="textareaLabel"></label>&nbsp;:
+
+<label for="{{parentFormId}}+_textarea" ng-class="requiredField ? 'form-label-required' : 'form-label-normal'"  ng-bind="textareaLabel"></label>&nbsp;:
 <textarea id="{{parentFormId}}+_textarea" class="form-control" ></textarea>

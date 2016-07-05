@@ -27,6 +27,10 @@
                 if(attrList && attrList.length > 0) {
                     for(var i in attrList){
                         var attribute = formRenderHelper.getProcessedAttribute(attrList[i]);
+
+                        if(attribute.name == 'required'){
+                            scope.requiredField = true;
+                        }
                         if(attribute) {
                             cb.attr(formRenderHelper.getAttributeByAlias(attrList[i]["name"]), attrList[i]["value"]);
                         }

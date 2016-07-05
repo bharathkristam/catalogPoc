@@ -15,7 +15,7 @@
     return service;
 
        function getFormData() {
-        return $http.get("data/chota_form.json");
+        return $http.get("data/components_form.json");
       }
   }
 })(window.angular);
