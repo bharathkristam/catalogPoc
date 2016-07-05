@@ -10,7 +10,7 @@
             restrict: 'E',
             bindToController: true,
             controller: Controller,
-           // controllerAs: 'vm',
+            controllerAs: 'vm',
             link: link,
             templateUrl: 'Components/slider/Slider.html',
             scope: {
