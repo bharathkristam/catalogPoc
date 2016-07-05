@@ -1,5 +1,5 @@
 <span ng-if="!hideLabel">
-    <label for="radioGroup_{{data.id}}" ng-bind="data.name"></label>&nbsp;:
+    <label for="radioGroup_{{data.id}}" ng-bind="data.name" ng-class="requiredField ? 'form-label-required' : 'form-label-normal'" ></label>&nbsp;:
 </span>
 
 <span ng-if="orientation == 'vertical'" id="radioGroup_{{data.id}}">

@@ -16,8 +16,13 @@
             },
             link: function (scope, element, attrs) {
                 var data = scope.data;
-                scope.requiredField = false;
-                scope.fieldType = 'text';
+
+                scope.additionalAttrs = {
+                    requiredField : false,
+                    fieldType : 'text',
+                    hideLabel : false
+                };
+
 
 
                 var jElement = $(element);
@@ -29,13 +34,15 @@
                             var attribute = formRenderHelper.getProcessedAttribute(attrList[i]);
 
                         if(attribute){
-
                             if(attribute.name == 'required'){
-                                scope.requiredField = true;
+                                scope.additionalAttrs.requiredField = (attribute.value == 'true');
                             }
                             if(attribute.name == 'password'){
-                                scope.fieldType = 'password';
+                                scope.additionalAttrs.fieldType = 'password';
                                 continue;
+                            }
+                            if(attribute.name == 'hideLabel'){
+                                scope.additionalAttrs.hideLabel = (attribute.value == 'true');
                             }
                             $(textField).attr(attribute.name, attribute.value);
                         }

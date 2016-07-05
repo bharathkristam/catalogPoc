@@ -12,7 +12,6 @@
             controller: Controller,
             controllerAs: 'vm',
             link: link,
-            replace: true,
             templateUrl: 'Components/slider/Slider.html',
             scope: {
                 data: '=',
@@ -25,9 +24,6 @@
 
     function link(scope, element, attrs) {
         var data = scope.data;
-        scope.requiredField = false;
-        scope.fieldType = 'text';
-
 
         var jElement = $(element);
         var slider = jElement.find('input')[0];
@@ -48,9 +44,12 @@
 
     }
 
-    Controller.$inject = ['$scope'];
+    Controller.$inject = ['$scope', '$compile'];
     function Controller($scope) {
         var vm = this;
+
+        var data = $scope.data;
+
         vm.onclickslide=function($event){
             var x = document.getElementById("slider").value;
             document.getElementById("slidervalue").innerHTML = x;
