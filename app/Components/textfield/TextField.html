@@ -1,6 +1,6 @@
 
-<span ng-if="additionalAttrs.requiredField && !additionalAttrs.hideLabel" class="requiredField" role="presentation" aria-label="RequiredField">*</span>
-<label ng-if="!additionalAttrs.hideLabel" role="presentation"  for="{{data.id}}+_textfield" ng-class="requiredField ? 'form-label-required' : 'form-label-normal'" ng-bind="textFieldLabel"></label>&nbsp;:
+<span ng-if="additionalAttrs.requiredField && !additionalAttrs.hideLabel" class="requiredField" role="presentation" aria-label="Required">*</span>
+<label ng-if="!additionalAttrs.hideLabel" role="presentation"  for="{{data.id}}+_textfield" ng-class="additionalAttrs.requiredField ? 'form-label-required' : 'form-label-normal'" ng-bind="textFieldLabel"></label>&nbsp;:
 
 
 <input class="form-control" id="{{data.id}}+_textfield" type="{{fieldType}}" role="textbox">

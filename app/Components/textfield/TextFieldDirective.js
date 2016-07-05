@@ -34,16 +34,15 @@
                             var attribute = formRenderHelper.getProcessedAttribute(attrList[i]);
 
                         if(attribute){
-
                             if(attribute.name == 'required'){
-                                scope.additionalAttrs.requiredField = true;
+                                scope.additionalAttrs.requiredField = (attribute.value == 'true');
                             }
                             if(attribute.name == 'password'){
                                 scope.additionalAttrs.fieldType = 'password';
                                 continue;
                             }
                             if(attribute.name == 'hideLabel'){
-                                scope.additionalAttrs.hideLabel = attribute.value;
+                                scope.additionalAttrs.hideLabel = (attribute.value == 'true');
                             }
                             $(textField).attr(attribute.name, attribute.value);
                         }
